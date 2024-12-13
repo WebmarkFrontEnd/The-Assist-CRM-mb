@@ -579,8 +579,8 @@ video {
   letter-spacing: 1.08px;
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
-  --tw-shadow: 0px 6px 0px 0px #A190CC;
-  --tw-shadow-colored: 0px 6px 0px 0px var(--tw-shadow-color);
+  --tw-shadow: 0px 8px 0px 0px #A190CC;
+  --tw-shadow-colored: 0px 8px 0px 0px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
@@ -590,8 +590,8 @@ video {
   background-color: transparent;
   --tw-text-opacity: 1;
   color: rgb(39 39 39 / var(--tw-text-opacity, 1));
-  --tw-shadow: 0px 6px 0px 0px #262a3b;
-  --tw-shadow-colored: 0px 6px 0px 0px var(--tw-shadow-color);
+  --tw-shadow: 0px 8px 0px 0px #262a3b;
+  --tw-shadow-colored: 0px 8px 0px 0px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
@@ -2029,8 +2029,8 @@ h5 {
 }
 
 .shadow-md {
-  --tw-shadow: 0px 6px 0px 0px #A190CC;
-  --tw-shadow-colored: 0px 6px 0px 0px var(--tw-shadow-color);
+  --tw-shadow: 0px 8px 0px 0px #A190CC;
+  --tw-shadow-colored: 0px 8px 0px 0px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
@@ -2454,8 +2454,8 @@ h1,h2{
 }
 
 .hover\:shadow-xl:hover {
-  --tw-shadow: 0px 6px 0px 0px #262a3b;
-  --tw-shadow-colored: 0px 6px 0px 0px var(--tw-shadow-color);
+  --tw-shadow: 0px 8px 0px 0px #262a3b;
+  --tw-shadow-colored: 0px 8px 0px 0px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
