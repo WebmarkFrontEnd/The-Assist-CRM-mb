@@ -1162,6 +1162,10 @@ h5 {
   width: 100vw;
 }
 
+.w-1\/2 {
+  width: 50%;
+}
+
 .min-w-\[460px\] {
   min-width: 460px;
 }
@@ -2473,8 +2477,17 @@ h1,h2{
   border-width: 2px;
 }
 
+.\*\:border-b-\[1px\] > * {
+  border-bottom-width: 1px;
+}
+
 .\*\:border-\[\#262a3b1a\] > * {
   border-color: #262a3b1a;
+}
+
+.\*\:border-\[\#3C3F4F\] > * {
+  --tw-border-opacity: 1;
+  border-color: rgb(60 63 79 / var(--tw-border-opacity, 1));
 }
 
 .\*\:px-6 > * {
