@@ -34,6 +34,7 @@ module.exports = {
       boxShadow: {
         md: '0px 6px 0px 0px #A190CC',
         xl: '0px 6px 0px 0px #262a3b',
+        sm: '0px -2px 20px 0px rgba(0, 0, 0, 0.10)',
       },
 
       colors: {
