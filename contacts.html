@@ -125,6 +125,8 @@
         </ul>
       </div>
     </div>
+    <!-- Component End -->
+
     <div class="flex flex-col w-4/6 flex-grow">
       <div class="flex items-center justify-between flex-shrink-0 p-4">
         <button class="btn flex items-center gap-3 py-2.5 px-8">Search MLS or Contacts
@@ -156,8 +158,9 @@
             </svg>
           </button>
 
-          <form class="bg-light flex items-center justify-between gap-3 w-1/4 h-14 py-4 pr-2.5 pl-5 rounded-full">
-            <input class="focus-visible:outline-none w-full h-14" type="text" placeholder="Search.." name="search">
+          <form class="bg-light flex items-center justify-between gap-3 w-1/4 h-[56px] py-2 pr-2.5 pl-5 rounded-full">
+            <input class="focus-visible:outline-none w-full h-full" type="text" placeholder="Search for a contact"
+              name="search">
             <button class="btn-yellow py-2 px-5 pb-2.5 rounded-full " type="submit"><svg
                 xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20" stroke-width="1.5"
                 stroke="currentColor" class="size-6">
@@ -168,7 +171,7 @@
 
         </div>
 
-        <table class="mt-12 rounded-lg overflow-hidden w-full">
+        <table class="mt-8 rounded-lg overflow-hidden w-full">
           <thead class="bg-primary h-14">
             <tr
               class="*:text-light *:font-osw *:text-base *:uppercase *:tracking-[0.32px] *:font-medium *:text-left *:px-6">
@@ -180,12 +183,12 @@
               <th>Delete</th>
             </tr>
           </thead>
-          <tbody class="*:border-[#262a3b1a] *:border-2 *:h-20">
+          <tbody class="*:border-[#262a3b1a] *:border-2 *:h-16">
             <tr class="*:px-6">
-              <td class="font-semibold font-popp font-popp">James Washington</td>
+              <td class="font-semibold font-popp">James Washington</td>
               <td><a href="mailto:mcbridekelly@yahoo.com">mcbridekelly@yahoo.com</a></td>
               <td>N/A</td>
-              <td><button class="btn flex items-center gap-3 py-2.5 px-8">
+              <td><button class="btn-without-shadow flex items-center gap-3">
                   Send Message
                 </button></td>
               <td><a href="#"><img src="./img/edit.svg" alt=""></a></td>
@@ -196,10 +199,10 @@
                   </svg></a></td>
             </tr>
             <tr class="*:px-6">
-              <td class="font-semibold font-popp font-popp">Jennifer Rivera</td>
+              <td class="font-semibold font-popp">Jennifer Rivera</td>
               <td><a href="mailto:gwalker@gmail.com">gwalker@gmail.com</a></td>
               <td>N/A</td>
-              <td><button class="btn flex items-center gap-3 py-2.5 px-8">
+              <td><button class="btn-without-shadow flex items-center gap-3">
                   Send Message
                 </button></td>
               <td><a href="#"><img src="./img/edit.svg" alt=""></a></td>
@@ -210,10 +213,10 @@
                   </svg></a></td>
             </tr>
             <tr class="*:px-6">
-              <td class="font-semibold font-popp font-popp font-popp">Alan Ramirez</td>
+              <td class="font-semibold font-popp">Alan Ramirez</td>
               <td><a href="mailto:jesus94@gmail.com">jesus94@gmail.com</a></td>
               <td>N/A</td>
-              <td><button class="btn flex items-center gap-3 py-2.5 px-8">
+              <td><button class="btn-without-shadow flex items-center gap-3">
                   Send Message
                 </button></td>
               <td><a href="#"><img src="./img/edit.svg" alt=""></a></td>
@@ -224,10 +227,10 @@
                   </svg></a></td>
             </tr>
             <tr class="*:px-6">
-              <td class="font-semibold font-popp font-popp">Sarah Thomas</td>
+              <td class="font-semibold font-popp">Sarah Thomas</td>
               <td><a href="mailto:georgewheeler@elliott-flores.com">georgewheeler@elliott-flores.com</a></td>
               <td>N/A</td>
-              <td><button class="btn flex items-center gap-3 py-2.5 px-8">
+              <td><button class="btn-without-shadow flex items-center gap-3">
                   Send Message
                 </button></td>
               <td><a href="#"><img src="./img/edit.svg" alt=""></a></td>
@@ -238,10 +241,10 @@
                   </svg></a></td>
             </tr>
             <tr class="*:px-6">
-              <td class="font-semibold font-popp">Katherine Ferguson</td>
+              <td class="font-semibold">Katherine Ferguson</td>
               <td><a href="mailto:robertcook@hotmail.com">robertcook@hotmail.com</a></td>
               <td>N/A</td>
-              <td><button class="btn flex items-center gap-3 py-2.5 px-8">
+              <td><button class="btn-without-shadow flex items-center gap-3">
                   Send Message
                 </button></td>
               <td><a href="#"><img src="./img/edit.svg" alt=""></a></td>
@@ -252,10 +255,10 @@
                   </svg></a></td>
             </tr>
             <tr class="*:px-6">
-              <td class="font-semibold font-popp">Crystal Franco</td>
+              <td class="font-semibold">Crystal Franco</td>
               <td><a href="mailto:lesliejohnson@hotmail.com">lesliejohnson@hotmail.com</a></td>
               <td>N/A</td>
-              <td><button class="btn flex items-center gap-3 py-2.5 px-8">
+              <td><button class="btn-without-shadow flex items-center gap-3">
                   Send Message
                 </button></td>
               <td><a href="#"><img src="./img/edit.svg" alt=""></a></td>
@@ -266,10 +269,10 @@
                   </svg></a></td>
             </tr>
             <tr class="*:px-6">
-              <td class="font-semibold font-popp">Mike Garcia</td>
+              <td class="font-semibold">Mike Garcia</td>
               <td><a href="mailto:angela39@gmail.com">angela39@gmail.com</a></td>
               <td>N/A</td>
-              <td><button class="btn flex items-center gap-3 py-2.5 px-8">
+              <td><button class="btn-without-shadow flex items-center gap-3">
                   Send Message
                 </button></td>
               <td><a href="#"><img src="./img/edit.svg" alt=""></a></td>

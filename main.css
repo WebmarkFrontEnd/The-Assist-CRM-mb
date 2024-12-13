@@ -4,8 +4,7 @@
 
 @layer components {
   .btn {
-    @apply px-[20px] py-[15px] text-lg 
-      font-osw border-2 border-light inline-block bg-btn-primary text-light rounded-full shadow-md uppercase hover:shadow-xl hover:text-dark hover:bg-transparent hover:border-dark tracking-[1.08px];
+    @apply px-[20px] py-[15px] text-base font-osw border-2 border-light inline-block bg-btn-primary text-light rounded-full shadow-md uppercase hover:shadow-xl hover:text-dark hover:bg-transparent hover:border-dark tracking-[0.96px];
   }
 
   .btn-yellow {
@@ -14,6 +13,10 @@
 
   .btn-dark {
     @apply bg-primary  text-light border-light shadow-primary hover:bg-btn-primary hover:text-light hover:border-light hover:shadow-btn-primary;
+  }
+
+  .btn-without-shadow {
+    @apply px-5 py-3 text-sm font-osw border-2 border-none inline-block bg-btn-primary text-light rounded-full uppercase hover:text-white hover:bg-dark hover:border-dark tracking-[1.08px];
   }
 
   .sidebar-menu li a {
