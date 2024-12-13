@@ -998,6 +998,10 @@ h5 {
   height: 0.25rem;
 }
 
+.h-10 {
+  height: 2.5rem;
+}
+
 .h-11 {
   height: 2.75rem;
 }
@@ -1046,6 +1050,10 @@ h5 {
   height: 2rem;
 }
 
+.h-\[56px\] {
+  height: 56px;
+}
+
 .h-full {
   height: 100%;
 }
@@ -1062,18 +1070,6 @@ h5 {
   height: 100svh;
 }
 
-.h-10 {
-  height: 2.5rem;
-}
-
-.h-\[56\] {
-  height: 56;
-}
-
-.h-\[56px\] {
-  height: 56px;
-}
-
 .max-h-64 {
   max-height: 16rem;
 }
@@ -1088,6 +1084,10 @@ h5 {
 
 .w-1 {
   width: 0.25rem;
+}
+
+.w-1\/2 {
+  width: 50%;
 }
 
 .w-1\/4 {
@@ -1160,10 +1160,6 @@ h5 {
 
 .w-screen {
   width: 100vw;
-}
-
-.w-1\/2 {
-  width: 50%;
 }
 
 .min-w-\[460px\] {
@@ -1656,6 +1652,10 @@ h5 {
   padding: 0.25rem;
 }
 
+.p-10 {
+  padding: 2.5rem;
+}
+
 .p-12 {
   padding: 3rem;
 }
@@ -1682,10 +1682,6 @@ h5 {
 
 .p-8 {
   padding: 2rem;
-}
-
-.p-10 {
-  padding: 2.5rem;
 }
 
 .px-1 {
