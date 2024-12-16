@@ -575,6 +575,7 @@ video {
   font-family: Oswald, sans-serif;
   font-size: 1rem;
   line-height: 1.5rem;
+  font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 0.96px;
   --tw-text-opacity: 1;
@@ -653,6 +654,7 @@ video {
   font-family: Oswald, sans-serif;
   font-size: 0.875rem;
   line-height: 1.25rem;
+  font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 1.08px;
   --tw-text-opacity: 1;
@@ -666,6 +668,40 @@ video {
   background-color: rgb(39 39 39 / var(--tw-bg-opacity, 1));
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+
+.btn-without-shadow-yellow {
+  display: inline-block;
+  border-radius: 0.5rem;
+  border-width: 2px;
+  border-style: none;
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  font-family: Oswald, sans-serif;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.32px;
+  color: rgb(38 42 59 / 0.75);
+}
+
+.btn-without-shadow-yellow:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(214 207 31 / var(--tw-bg-opacity, 1));
+  --tw-text-opacity: 1;
+  color: rgb(38 42 59 / var(--tw-text-opacity, 1));
+}
+
+.btn-without-shadow-yellow:active {
+  --tw-bg-opacity: 1;
+  background-color: rgb(214 207 31 / var(--tw-bg-opacity, 1));
+  --tw-text-opacity: 1;
+  color: rgb(38 42 59 / var(--tw-text-opacity, 1));
 }
 
 .sidebar-menu li a {
@@ -992,6 +1028,36 @@ h5 {
 .size-6 {
   width: 1.5rem;
   height: 1.5rem;
+}
+
+.size-4 {
+  width: 1rem;
+  height: 1rem;
+}
+
+.size-8 {
+  width: 2rem;
+  height: 2rem;
+}
+
+.size-10 {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.size-9 {
+  width: 2.25rem;
+  height: 2.25rem;
+}
+
+.size-96 {
+  width: 24rem;
+  height: 24rem;
+}
+
+.size-5 {
+  width: 1.25rem;
+  height: 1.25rem;
 }
 
 .h-1 {
@@ -1916,6 +1982,10 @@ h5 {
   line-height: 2rem;
 }
 
+.text-2xl-3xl {
+  font-size: 26px;
+}
+
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
@@ -1931,10 +2001,6 @@ h5 {
 
 .text-\[13px\] {
   font-size: 13px;
-}
-
-.text-\[26px\] {
-  font-size: 26px;
 }
 
 .text-\[40px\] {
@@ -1966,6 +2032,14 @@ h5 {
   line-height: 1rem;
 }
 
+.text-4xl-3xl {
+  font-size: 34px;
+}
+
+.text-xl-3xl {
+  font-size: 22px;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -1992,6 +2066,10 @@ h5 {
 
 .leading-none {
   line-height: 1;
+}
+
+.tracking-\[0\.32px\] {
+  letter-spacing: 0.32px;
 }
 
 .tracking-\[0\.96px\] {
@@ -2081,6 +2159,10 @@ h5 {
 .text-primary {
   --tw-text-opacity: 1;
   color: rgb(38 42 59 / var(--tw-text-opacity, 1));
+}
+
+.text-primary\/75 {
+  color: rgb(38 42 59 / 0.75);
 }
 
 .text-rose-500 {
@@ -2567,6 +2649,11 @@ h1,h2{
   background-color: rgb(161 144 204 / var(--tw-bg-opacity, 1));
 }
 
+.hover\:bg-btn-secondary-bg:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(214 207 31 / var(--tw-bg-opacity, 1));
+}
+
 .hover\:bg-dark:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(39 39 39 / var(--tw-bg-opacity, 1));
@@ -2616,6 +2703,11 @@ h1,h2{
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 }
 
+.hover\:text-primary:hover {
+  --tw-text-opacity: 1;
+  color: rgb(38 42 59 / var(--tw-text-opacity, 1));
+}
+
 .hover\:text-white:hover {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
@@ -2642,9 +2734,19 @@ h1,h2{
   background-color: rgb(60 63 79 / var(--tw-bg-opacity, 1));
 }
 
+.active\:bg-btn-secondary-bg:active {
+  --tw-bg-opacity: 1;
+  background-color: rgb(214 207 31 / var(--tw-bg-opacity, 1));
+}
+
 .active\:text-gray-100:active {
   --tw-text-opacity: 1;
   color: rgb(243 244 246 / var(--tw-text-opacity, 1));
+}
+
+.active\:text-primary:active {
+  --tw-text-opacity: 1;
+  color: rgb(38 42 59 / var(--tw-text-opacity, 1));
 }
 
 .group:hover .group-hover\:text-blue-500 {
