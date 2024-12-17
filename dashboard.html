@@ -162,7 +162,7 @@
                   <!-- MLS Number -->
                   <div class="form-group flex-1 pb-4">
                     <label class="font-osw uppercase text-primary tracking-[0.96px]">MLS Number</label>
-                    <input type="text" required="true"
+                    <input type="number" required="true"
                       class="w-full border-[1px] border-[#262A3B1A] rounded-lg text-base py-3 px-5 mt-2">
                   </div>
 
@@ -177,13 +177,13 @@
                   <div class="form-group mb-5 flex justify-between gap-4 flex-col xl:flex-row">
                     <div class="form-group flex-1">
                       <label class="font-osw uppercase text-primary tracking-[0.96px]">Min Price</label>
-                      <input type="text" required="true"
+                      <input type="number" required="true"
                         class="w-full border-[1px] border-[#262A3B1A] rounded-lg text-base py-3 px-5 mt-2">
                     </div>
 
                     <div class="form-group flex-1">
                       <label class="font-osw uppercase text-primary tracking-[0.96px]">Max Price</label>
-                      <input type="text" required="true"
+                      <input type="number" required="true"
                         class="w-full border-[1px] border-[#262A3B1A] rounded-lg text-base py-3 px-5 mt-2">
                     </div>
                   </div>
@@ -192,20 +192,20 @@
                   <div class="form-group mb-5 flex justify-between gap-4 flex-col xl:flex-row">
                     <div class="form-group flex-1">
                       <label class="font-osw uppercase text-primary tracking-[0.96px]">Min Bedrooms</label>
-                      <input type="text" required="true"
+                      <input type="number" required="true"
                         class="w-full border-[1px] border-[#262A3B1A] rounded-lg text-base py-3 px-5 mt-2">
                     </div>
 
                     <div class="form-group flex-1">
                       <label class="font-osw uppercase text-primary tracking-[0.96px]">Max Bedrooms</label>
-                      <input type="text" required="true"
+                      <input type="number" required="true"
                         class="w-full border-[1px] border-[#262A3B1A] rounded-lg text-base py-3 px-5 mt-2">
                     </div>
                   </div>
 
                   <!-- Advanced Search Button -->
                   <div class="flex mb-8">
-                    <button class="btn btn-dark w-full flex items-center justify-between gap-3 py-3 px-8">Advanced
+                    <button class="btn btn-dark w-full flex items-center justify-between gap-3 py-3 px-8 group">Advanced
                       Search
                       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                         stroke="currentColor" class="size-6">
@@ -214,10 +214,30 @@
 
                     </button>
 
+                    <!-- <button class="relative text-sm rounded-lg focus:outline-none group">
+                      <div
+                        class="flex items-center justify-start text-left w-full py-3 px-3 border border-gray-300 rounded-lg">
+                        <span class="text-base font-medium text-dark">My Account</span>
+
+                      </div>
+                      <div
+                        class="absolute z-10 flex-col items-start hidden w-full pb-1 bg-white shadow-lg group-focus:flex">
+                        <a class="w-full px-4 py-2 text-left hover:bg-primary transition-all hover:text-white"
+                          href="#">Order</a>
+                        <a class="w-full px-4 py-2 text-left hover:bg-primary transition-all hover:text-white"
+                          href="#">Change
+                          Password</a>
+                        <a class="w-full px-4 py-2 text-left hover:bg-primary transition-all hover:text-white"
+                          href="#">Setting</a>
+                        <a class="w-full px-4 py-2 text-left hover:bg-primary transition-all hover:text-white"
+                          href="#">Logout</a>
+                      </div>
+                    </button> -->
+
                   </div>
 
                   <!-- Property Type (Dropdown) -->
-                  <div class="form-group flex-1 pb-4">
+                  <div class="form-group flex-1 pb-4  group-focus:flex">
                     <label class="font-osw uppercase text-primary tracking-[0.96px]">Property Type</label>
                     <select required="true"
                       class="w-full border-[1px] border-[#262A3B1A] rounded-lg text-base py-3 px-5 mt-2">
@@ -232,13 +252,13 @@
                   <div class="form-group mb-5 flex justify-between gap-4 flex-col xl:flex-row">
                     <div class="form-group flex-1">
                       <label class="font-osw uppercase text-primary tracking-[0.96px]">Min Year Built</label>
-                      <input type="email" required="true"
+                      <input type="number" required="true"
                         class="w-full border-[1px] border-[#262A3B1A] rounded-lg text-base py-3 px-5 mt-2">
                     </div>
 
                     <div class="form-group flex-1">
                       <label class="font-osw uppercase text-primary tracking-[0.96px]">Max Year Built</label>
-                      <input type="tel" required="true"
+                      <input type="number" required="true"
                         class="w-full border-[1px] border-[#262A3B1A] rounded-lg text-base py-3 px-5 mt-2">
                     </div>
                   </div>
@@ -247,13 +267,13 @@
                   <div class="form-group mb-5 flex justify-between gap-4 flex-col xl:flex-row">
                     <div class="form-group flex-1">
                       <label class="font-osw uppercase text-primary tracking-[0.96px]">Min Lot Size (Acres)</label>
-                      <input type="text" required="true"
+                      <input type="number" required="true"
                         class="w-full border-[1px] border-[#262A3B1A] rounded-lg text-base py-3 px-5 mt-2">
                     </div>
 
                     <div class="form-group flex-1">
                       <label class="font-osw uppercase text-primary tracking-[0.96px]">Max Lot Size (Acres)</label>
-                      <input type="text" required="true"
+                      <input type="number" required="true"
                         class="w-full border-[1px] border-[#262A3B1A] rounded-lg text-base py-3 px-5 mt-2">
                     </div>
 
@@ -263,13 +283,13 @@
                   <div class="form-group mb-5 flex justify-between gap-4 flex-col xl:flex-row">
                     <div class="form-group flex-1">
                       <label class="font-osw uppercase text-primary tracking-[0.96px]">Min Building Area (Sq Ft)</label>
-                      <input type="text" required="true"
+                      <input type="number" required="true"
                         class="w-full border-[1px] border-[#262A3B1A] rounded-lg text-base py-3 px-5 mt-2">
                     </div>
 
                     <div class="form-group flex-1">
                       <label class="font-osw uppercase text-primary tracking-[0.96px]">Max Building Area (Sq Ft)</label>
-                      <input type="text" required="true"
+                      <input type="number" required="true"
                         class="w-full border-[1px] border-[#262A3B1A] rounded-lg text-base py-3 px-5 mt-2">
                     </div>
 
@@ -291,13 +311,13 @@
                   <div class="form-group mb-5 flex justify-between gap-4 flex-col xl:flex-row">
                     <div class="form-group flex-1">
                       <label class="font-osw uppercase text-primary tracking-[0.96px]">Interior Features</label>
-                      <input type="email" required="true"
+                      <input type="text" required="true"
                         class="w-full border-[1px] border-[#262A3B1A] rounded-lg text-base py-3 px-5 mt-2">
                     </div>
 
                     <div class="form-group flex-1">
                       <label class="font-osw uppercase text-primary tracking-[0.96px]">Exterior Features</label>
-                      <input type="tel" required="true"
+                      <input type="text" required="true"
                         class="w-full border-[1px] border-[#262A3B1A] rounded-lg text-base py-3 px-5 mt-2">
                     </div>
                   </div>
@@ -306,13 +326,13 @@
                   <div class="form-group mb-5 flex justify-between gap-4 flex-col xl:flex-row">
                     <div class="form-group flex-1">
                       <label class="font-osw uppercase text-primary tracking-[0.96px]">Min Stories</label>
-                      <input type="email" required="true"
+                      <input type="number" required="true"
                         class="w-full border-[1px] border-[#262A3B1A] rounded-lg text-base py-3 px-5 mt-2">
                     </div>
 
                     <div class="form-group flex-1">
                       <label class="font-osw uppercase text-primary tracking-[0.96px]">Max Stories</label>
-                      <input type="tel" required="true"
+                      <input type="number" required="true"
                         class="w-full border-[1px] border-[#262A3B1A] rounded-lg text-base py-3 px-5 mt-2">
                     </div>
                   </div>
@@ -321,13 +341,13 @@
                   <div class="form-group mb-5 flex justify-between gap-4 flex-col xl:flex-row">
                     <div class="form-group flex-1">
                       <label class="font-osw uppercase text-primary tracking-[0.96px]">Architectural Style</label>
-                      <input type="email" required="true"
+                      <input type="text" required="true"
                         class="w-full border-[1px] border-[#262A3B1A] rounded-lg text-base py-3 px-5 mt-2">
                     </div>
 
                     <div class="form-group flex-1">
                       <label class="font-osw uppercase text-primary tracking-[0.96px]">Accessibility Features</label>
-                      <input type="tel" required="true"
+                      <input type="text" required="true"
                         class="w-full border-[1px] border-[#262A3B1A] rounded-lg text-base py-3 px-5 mt-2">
                     </div>
                   </div>
@@ -336,13 +356,13 @@
                   <div class="form-group mb-5 flex justify-between gap-4 flex-col xl:flex-row">
                     <div class="form-group flex-1">
                       <label class="font-osw uppercase text-primary tracking-[0.96px]">Neighborhood</label>
-                      <input type="email" required="true"
+                      <input type="text" required="true"
                         class="w-full border-[1px] border-[#262A3B1A] rounded-lg text-base py-3 px-5 mt-2">
                     </div>
 
                     <div class="form-group flex-1">
                       <label class="font-osw uppercase text-primary tracking-[0.96px]">School District</label>
-                      <input type="tel" required="true"
+                      <input type="text" required="true"
                         class="w-full border-[1px] border-[#262A3B1A] rounded-lg text-base py-3 px-5 mt-2">
                     </div>
                   </div>
@@ -350,7 +370,7 @@
                   <!-- Zip Code -->
                   <div class="form-group flex-1 pb-4">
                     <label class="font-osw uppercase text-primary tracking-[0.96px]">Zip Code</label>
-                    <input type="text" required="true"
+                    <input type="number" required="true"
                       class="w-full border-[1px] border-[#262A3B1A] rounded-lg text-base py-3 px-5 mt-2">
                   </div>
 
@@ -378,7 +398,6 @@
 
           </div>
         </div>
-
       </div>
     </div>
 
