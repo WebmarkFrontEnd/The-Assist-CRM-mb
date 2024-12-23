@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
   <link rel="stylesheet" href="./style.css">
-  <title>Pricing</title>
+  <title>Integrations</title>
 </head>
 
 <body class="text-gray-800 font-inter">
@@ -14,7 +14,6 @@
   <div class="flex w-screen h-screen">
 
     <!-- Component Start -->
-
     <div class="flex flex-col left-0 top-0 w-60 h-full bg-[#262A3B] py-4 z-50 sidebar-menu transition-transform">
       <a href="#" class="flex items-center justify-center mb-4 border-b-[1px] border-[#3C3F4F]">
         <img src="./img/leads-logo.png" alt="">
@@ -126,6 +125,8 @@
         </ul>
       </div>
     </div>
+    <!-- Component End -->
+
     <div class="flex flex-col w-4/6 flex-grow">
       <div class="flex items-center justify-between flex-shrink-0 p-4">
         <button class="btn flex items-center gap-3 py-2.5 px-8">Search MLS or Contacts
@@ -144,61 +145,91 @@
 
         </button>
       </div>
-      <div class=" p-8 overflow-auto bg-light-grey h-full pr-14">
-        <div class="bg-[url('./img/star-graphic.svg')] bg-right bg-no-repeat h-full">
-          <div class="inline-flex flex-row items-center gap-11">
-            <h1 class="text-4xl-3xl -tracking-[0.68px]">Pricing</h1>
 
-            <div
-              class="border-[1px] border-[#262A3B1A] rounded-lg p-2 w-[298px] gap-2  m-auto flex flex-row *:btn-without-shadow-yellow *:active *:w-full *:bg-transparent">
-              <button type="submit">Monthly</button>
-              <button type="submit">Yearly</button>
+      <div class="flex-grow p-10 overflow-auto  bg-light-grey border border-grey">
+        <h1 class="text-4xl-3xl mb-8 -tracking-[0.68px]">Integrations</h1>
+
+        <div class="grid grid-cols-2 gap-x-7 gap-y-[22px]">
+            
+            <!-- Zapier -->
+            <div class="p-10 rounded-xl bg-white flex items-center gap-8">
+                <div class="py-5 px-2.5 border-[1px] border-[#262A3B1A] rounded-lg">
+                    <img src="./img/zapier-logo.png" alt="zapier-logo">
+                </div>
+
+                <div>
+                    <h3 class="text-2xl-3xl">Zapier</h3>
+                    <ul class="mt-4 mb-6 ms-5 list-disc *:text-base *:text-primary/75 *:marker:text-yellow-400 *:mb-2">
+                        <li class="font-popp">Quam nulla porttitor massa id.</li>
+                        <li class="font-popp">Praesent cras ligula eros penatibus imperdiet.</li>
+                        <li class="font-popp">Quam nulla porttitor massa id.</li>
+                    </ul>
+                    <button type="submit" class="btn-without-shadow bg-btn-secondary-bg text-base px-8">Connect</button>
+                </div>
             </div>
+            
+            <!-- Flodesk -->
+            <div class="p-10 rounded-2xl bg-white flex items-center gap-8">
+                <div class="py-5 px-2.5 border-[1px] border-[#262A3B1A] rounded-lg">
+                    <img src="./img/flodesk-logo.png" alt="zapier-logo">
+                </div>
 
-          </div>
-
-          <div class="offer-box w-[800px] bg-light pt-3 p-10 rounded-xl mt-10">
-
-            <div class="offer-box-header flex flex-row justify-between items-center">
-              <h4 class="text-2xl-3xl">Assist+</h4>
-              <div
-                class="offer-badge bg-[url('./img/badge.svg')] bg-cover flex flex-col rounded-full text-center p-8 font-osw text-base font-semibold uppercase leading-4">
-                25%<span>off</span>
-              </div>
+                <div>
+                    <h3 class="text-2xl-3xl">Flodesk</h3>
+                    <ul class="mt-4 mb-6 ms-5 list-disc *:text-base *:text-primary/75 *:marker:text-yellow-400 *:mb-2">
+                        <li class="font-popp">Quam nulla porttitor massa id.</li>
+                        <li class="font-popp">Praesent cras ligula eros penatibus imperdiet.</li>
+                        <li class="font-popp">Quam nulla porttitor massa id.</li>
+                    </ul>
+                    <button type="submit" class="btn-without-shadow bg-btn-secondary-bg text-base px-8">Connect</button>
+                </div>
             </div>
-            <div class="mb-8 flex gap-20 ">
-              <ul class=" *:flex *:flex-row *:gap-2 *:text-lg *:text-primary/75 *:mb-4">
-                <li><img src="./img/check.svg" alt="check list" class="w-5">Praesent cras ligula penatibus</li>
-                <li><img src="./img/check.svg" alt="check list" class="w-5">Lorem ipsum odor</li>
-                <li><img src="./img/check.svg" alt="check list" class="w-5">Odio conubia ligula placerat </li>
-                <li><img src="./img/check.svg" alt="check list" class="w-5">Ultricies porta a vestibulum</li>
-              </ul>
-              <ul class="*:flex *:flex-row *:gap-2 *:text-lg *:text-primary/75 *:mb-4">
-                <li><img src="./img/check.svg" alt="check list" class="w-5">Praesent cras ligula penatibus</li>
-                <li><img src="./img/check.svg" alt="check list" class="w-5">Lorem ipsum odor</li>
-                <li><img src="./img/check.svg" alt="check list" class="w-5">Odio conubia ligula placerat </li>
-                <li><img src="./img/check.svg" alt="check list" class="w-5">Ultricies porta a vestibulum</li>
-              </ul>
-            </div>
+            
+            <!-- Gmail -->
+            <div class="p-10 rounded-2xl bg-white flex items-center gap-8">
+                <div class="py-5 px-2.5 border-[1px] border-[#262A3B1A] rounded-lg">
+                    <img src="./img/gmail-logo.png" alt="zapier-logo">
+                </div>
 
-            <div class="footer-info flex flex-row items-center pt-7 border-t-[1px] border-primary/10">
-              <div class="price w-1/2 text-2xl-3xl font-medium font-osw text-primary">
-                $149 <span class="text-xl-3xl text-primary/75 line-through">$197</span>
-              </div>
-
-              <button class="btn flex items-center justify-center gap-3 py-2.5 px-8 w-full">Get
-                Started</button>
+                <div>
+                    <h3 class="text-2xl-3xl">Gmail</h3>
+                    <ul class="mt-4 mb-6 ms-5 list-disc *:text-base *:text-primary/75 *:marker:text-yellow-400 *:mb-2">
+                        <li class="font-popp">Quam nulla porttitor massa id.</li>
+                        <li class="font-popp">Praesent cras ligula eros penatibus imperdiet.</li>
+                        <li class="font-popp">Quam nulla porttitor massa id.</li>
+                    </ul>
+                    <button type="submit" class="btn-without-shadow bg-btn-secondary-bg text-base px-8">Connect</button>
+                </div>
             </div>
-          </div>
+            
+            <!-- Zapier -->
+            <div class="p-10 rounded-2xl bg-white flex items-center gap-8">
+                <div class="py-5 px-2.5 border-[1px] border-[#262A3B1A] rounded-lg">
+                    <img src="./img/zapier-logo.png" alt="zapier-logo">
+                </div>
+
+                <div>
+                    <h3 class="text-2xl-3xl">Zapier</h3>
+                    <ul class="mt-4 mb-6 ms-5 list-disc *:text-base *:text-primary/75 *:marker:text-yellow-400 *:mb-2">
+                        <li class="font-popp">Quam nulla porttitor massa id.</li>
+                        <li class="font-popp">Praesent cras ligula eros penatibus imperdiet.</li>
+                        <li class="font-popp">Quam nulla porttitor massa id.</li>
+                    </ul>
+                    <button type="submit" class="btn-without-shadow bg-btn-secondary-bg text-base px-8">Connect</button>
+                </div>
+            </div>
+            
         </div>
-
 
 
       </div>
     </div>
+    <!-- Component End  -->
+
   </div>
 
-  <!-- Component End  -->
 </body>
+
+
 
 </html>

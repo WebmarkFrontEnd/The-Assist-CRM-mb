@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+  <title>Single Property Template</title>
+</head>
+
+<body class="text-gray-800 font-inter">
+  <!-- Dashboard Page-->
+  <div class="flex w-screen h-screen">
+
+    <!-- Component Start -->
+
+    <div class="flex flex-col left-0 top-0 w-60 h-full bg-[#262A3B] py-4 z-50 sidebar-menu transition-transform">
+      <a href="#" class="flex items-center justify-center mb-4 border-b-[1px] border-[#3C3F4F]">
+        <img src="./img/leads-logo.png" alt="">
+        <!-- <span class="text-lg font-bold text-white ml-3">Logo</span> -->
+      </a>
+      <div class="px-4 h-full">
+        <h4 class="text-sm text-light opacity-40 uppercase font-osw tracking-tight px-4">Main Menu</h4>
+        <ul class="mt-4 *:mb-1">
+
+          <li class="active">
+            <a href="#">
+              <img src="./img/dashboard.png" alt="dashboard">
+              <span>Dashboard</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="./img/leads+.png" alt="leads">
+              <span>Leads</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              <img src="./img/pipeline.png" alt="pipeline">
+              <span>Pipeline</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              <img src="./img/follow-up.png" alt="follow-up">
+              <span>Follow-up</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              <img src="./img/marketing-hub.png" alt="marketing-hub">
+              <span>Marketing Hub-up</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              <img src="./img/integrations.png" alt="integrations">
+              <span>Integrations</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              <img src="./img/extra-love.png" alt="extra-love">
+              <span>Extra-love</span>
+            </a>
+          </li>
+        </ul>
+        <ul class="mt-5 pt-5 *:mb-1 border-t-[1px] border-[#3C3F4F]">
+          <li>
+            <a href="#">
+              <img src="./img/ambassador.png" alt="ambassador">
+              <span>ambassador</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="./img/notifications.png" alt="notifications">
+              <span>Notifications</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="./img/pricing.png" alt="pricing">
+              <span>Pricing</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="./img/contacts.png" alt="contacts">
+              <span class="text-sm">contacts</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              <img src="./img/csv-importer.png" alt="csv-importer">
+              <span>CSV Importer</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              <img src="./img/assistant.png" alt="assistant">
+              <span>Assistant</span>
+            </a>
+          </li>
+
+        </ul>
+      </div>
+
+      <div class="px-4">
+        <ul class="mt-4 *:mb-1">
+          <li>
+            <a href="#">
+              <img src="./img/logout.png" alt="logout">
+              <span>Logout</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="flex flex-col w-4/6 flex-grow">
+      <div class="flex items-center justify-between flex-shrink-0 p-4">
+        <button class="btn flex items-center gap-3 py-2.5 px-8">Search MLS or Contacts
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20" stroke-width="1.5"
+            stroke="currentColor" class="size-5">
+            <path stroke-linecap="round" stroke-linejoin="round"
+              d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+          </svg>
+        </button>
+        <button class="btn btn-yellow flex items-center gap-3 py-2.5 px-8">Add Client/Alert
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+            stroke="currentColor" class="size-5">
+            <path stroke-linecap="round" stroke-linejoin="round"
+              d="M12 9v6m3-3H9m12 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+          </svg>
+
+        </button>
+      </div>
+      <div class=" p-8 overflow-auto bg-light-grey h-full">
+
+        <div class="single-property flex flex-row gap-14">
+          <div class="col w-8/12">
+            <!---- Single Property Featured Images --->
+            <div class="product-featured-image rounded-2xl overflow-hidden">
+              <img src="./img/elland-rd.jpg" alt="Elland Rd" class="w-full">
+            </div>
+
+            <!---- Single Property Info Box --->
+            <div class="info-box mt-8 mb-5">
+              <h1 class="product-title text-4xl-3xl font-normal">9914 Elland Rd</h1>
+              <h4 class="product-address text-xl-3xl font-normal">Brentwood, TN 37027</h4>
+            </div>
+
+            <!---- Single Property Info Box --->
+            <div
+              class="amenities-info cards grid grid-cols-4 justify-start gap-5 *:bg-light *:p-6 *:rounded-xl *:flex *:flex-col *:gap-2">
+
+              <div class="bedroom card">
+                <p class="title text-base text-primary/75 font-osw uppercase tracking-[0.32px]">Bedroom</p>
+                <div class="flex flex-row gap-2 items-center">
+                  <img src="./img/bedroom.svg" alt="bedroom" class="w-6">
+                  <p class="count text-lg font-medium tracking-[0.18px]">Five</p>
+                </div>
+              </div>
+
+              <div class="bathroom card">
+                <p class="title text-base text-primary/75 font-osw uppercase tracking-[0.32px]">Bathroom</p>
+                <div class="flex flex-row gap-2 items-center">
+                  <img src="./img/bathroom.svg" alt="bathroom" class="w-6">
+                  <p class="count text-lg font-medium tracking-[0.18px]">Three</p>
+                </div>
+              </div>
+
+              <div class="area card">
+                <p class="title text-base text-primary/75 font-osw uppercase tracking-[0.32px]">Area</p>
+                <div class="flex flex-row gap-2 items-center">
+                  <img src="./img/area.svg" alt="area" class="w-6">
+                  <p class="count text-lg font-medium tracking-[0.18px]">5,121 sqft</p>
+                </div>
+              </div>
+
+              <div class="parking card">
+                <p class="title text-base text-primary/75 font-osw uppercase tracking-[0.32px]">Parking</p>
+                <div class="flex flex-row gap-2 items-center">
+                  <img src="./img/parking.svg" alt="parking" class="w-6">
+                  <p class="count text-lg font-medium tracking-[0.18px]">Indoor</p>
+                </div>
+              </div>
+            </div>
+
+            <!---- Description Style --->
+
+            <div class="description mt-10 mb-10">
+              <h4 class="title text-xl-3xl pb-4">Description</h4>
+              <p class="mb-4 text-primary/75">Lorem ipsum odor amet, consectetuer adipiscing elit. Taciti elit elementum
+                nostra odio sapien congue porttitor. Posuere rhoncus vulputate; ad fringilla metus tempor nascetur. Dui
+                fusce curae ipsum ipsum est dapibus a. Natoque
+                dapibus netus phasellus per purus tempor. Lacus tincidunt nisl sollicitudin ullamcorper montes interdum
+                vulputate.</p>
+              <p class="text-primary/75">Neque tempor faucibus euismod pharetra habitasse massa himenaeos mauris.
+                Efficitur ipsum nascetur vehicula purus tempus nibh. Facilisi aliquam eleifend habitasse porta at in.
+                Nullam luctus volutpat quam sodales sit quisque.
+                Parturient inceptos ut taciti venenatis augue ligula. Elementum tempus blandit nascetur; penatibus
+                ullamcorper id conubia. Ultrices magna hendrerit; rhoncus sed curabitur placerat pulvinar donec
+                habitasse. Felis dictum
+                phasellus interdum bibendum phasellus eu quis commodo semper.</p>
+            </div>
+
+            <!---- Building Information --->
+            <div class="building-information px-12 pt-5 pb-9 bg-light rounded-2xl">
+              <h4 class="title text-xl-3xl">Building Information</h4>
+
+              <div class="building-detail">
+                <div class="mt-7 mb-3 flex gap-5 flex-row items-center">
+                  <div class="inline-flex gap-2 w-3/12">
+                    <img src="./img/star.svg" alt="star">
+                    <h5 class="text-base uppercase font-osw tracking-[0.64px]">Building Details</h5>
+                  </div>
+                  <hr class="w-full">
+                </div>
+                <div class="detail ml-8 grid grid-cols-2 gap-x-12 gap-y-4">
+                  <p class="text-primary/75">Levels: <span class="text-primary font-medium">Two</span></p>
+                  <p class="text-primary/75">Stories: <span class="text-primary font-medium">Two</span></p>
+                </div>
+              </div>
+
+              <div class="bedroom-detail">
+                <div class="mt-8 mb-3 flex gap-5 flex-row items-center">
+                  <div class="inline-flex gap-2 w-3/12">
+                    <img src="./img/star.svg" alt="star">
+                    <h5 class="text-base uppercase font-osw tracking-[0.64px]">Bedroom Details</h5>
+                  </div>
+                  <hr class="w-full">
+                </div>
+                <div class="detail ml-8 grid grid-cols-2 gap-x-12 gap-y-4">
+                  <p class="text-primary/75">Bedrooms Total: <span class="text-primary font-medium">5</span></p>
+                  <p class="text-primary/75">Main Level Bedrooms: <span class="text-primary font-medium">2</span></p>
+                </div>
+              </div>
+
+              <div class="bathroom-detail">
+                <div class="mt-8 mb-3 flex gap-5 flex-row items-center">
+                  <div class="inline-flex gap-2 w-3/12">
+                    <img src="./img/star.svg" alt="star">
+                    <h5 class="text-base uppercase font-osw tracking-[0.64px]">Bathroom Details</h5>
+                  </div>
+                  <hr class="w-full">
+                </div>
+                <div class="detail ml-8 grid grid-cols-2 gap-x-12 gap-y-4">
+                  <p class="text-primary/75">Bathrooms Total: <span class="text-primary font-medium">Two</span></p>
+                  <p class="text-primary/75">Bathrooms Full: <span class="text-primary font-medium">5</span></p>
+                  <p class="text-primary/75">Bathrooms Half: <span class="text-primary font-medium">1</span></p>
+                </div>
+              </div>
+
+              <div class="kitchen-detail">
+                <div class="mt-8 mb-3 flex gap-5 flex-row items-center">
+                  <div class="inline-flex gap-2 w-3/12">
+                    <img src="./img/star.svg" alt="star">
+                    <h5 class="text-base uppercase font-osw tracking-[0.64px]">Kitchen Details</h5>
+                  </div>
+                  <hr class="w-full">
+                </div>
+                <div class="detail ml-8 grid grid-cols-2 gap-x-12 gap-y-4">
+                  <p class="text-primary/75">Bathrooms Total: <span class="text-primary font-medium">Dishwasher,
+                      Disposal,
+                      Microwave, and Stainless Steel Appliance(s)</span></p>
+                </div>
+              </div>
+
+              <div class="fireplace-detail">
+                <div class="mt-8 mb-3 flex gap-5 flex-row items-center">
+                  <div class="inline-flex gap-2 w-3/12">
+                    <img src="./img/star.svg" alt="star">
+                    <h5 class="text-base uppercase font-osw tracking-[0.64px]">Fireplace Details</h5>
+                  </div>
+                  <hr class="w-full">
+                </div>
+                <div class="detail ml-8 grid grid-cols-2 gap-x-12 gap-y-4">
+                  <p class="text-primary/75">Fireplace Total: <span class="text-primary font-medium">2</span></p>
+                </div>
+              </div>
+
+              <div class="interior-features">
+                <div class="mt-8 mb-3 flex gap-5 flex-row items-center">
+                  <div class="inline-flex gap-2 w-3/12">
+                    <img src="./img/star.svg" alt="star">
+                    <h5 class="text-base uppercase font-osw tracking-[0.64px]">Fireplace Details</h5>
+                  </div>
+                  <hr class="w-full">
+                </div>
+                <div class="detail ml-8 grid grid-cols-2 gap-x-12 gap-y-4">
+                  <p class="text-primary/75">Interior Features: <span class="text-primary font-medium">Bookcases, Entry
+                      Foyer, High Ceilings, Open Floorplan, Pantry, Storage, Walk-In Closet(s), and
+                      Primary Bedroom Main Floor</span></p>
+                  <p class="text-primary/75">Flooring: <span class="text-primary font-medium">Carpet, Finished Wood, and
+                      Tile</span></p>
+                </div>
+              </div>
+
+            </div>
+
+
+            <!---- Exterior Information --->
+
+            <div class="exterior-information mt-7 px-12 pt-5 pb-9 bg-light rounded-2xl">
+              <h4 class="title text-xl-3xl">Exterior Information</h4>
+
+              <div class="building-detail">
+                <div class="mt-7 mb-3 flex gap-5 flex-row items-center">
+                  <div class="inline-flex gap-2 w-3/12">
+                    <img src="./img/star.svg" alt="star">
+                    <h5 class="text-base uppercase font-osw tracking-[0.64px]">Building Details</h5>
+                  </div>
+                  <hr class="w-full">
+                </div>
+                <div class="detail ml-8 grid grid-cols-2 gap-x-12 gap-y-4">
+                  <p class="text-primary/75">Levels: <span class="text-primary font-medium">Two</span></p>
+                  <p class="text-primary/75">Stories: <span class="text-primary font-medium">Two</span></p>
+                </div>
+              </div>
+
+              <div class="bedroom-detail">
+                <div class="mt-8 mb-3 flex gap-5 flex-row items-center">
+                  <div class="inline-flex gap-2 w-3/12">
+                    <img src="./img/star.svg" alt="star">
+                    <h5 class="text-base uppercase font-osw tracking-[0.64px]">Bedroom Details</h5>
+                  </div>
+                  <hr class="w-full">
+                </div>
+                <div class="detail ml-8 grid grid-cols-2 gap-x-12 gap-y-4">
+                  <p class="text-primary/75">Bedrooms Total: <span class="text-primary font-medium">5</span></p>
+                  <p class="text-primary/75">Main Level Bedrooms: <span class="text-primary font-medium">2</span></p>
+                </div>
+              </div>
+
+              <div class="bathroom-detail">
+                <div class="mt-8 mb-3 flex gap-5 flex-row items-center">
+                  <div class="inline-flex gap-2 w-3/12">
+                    <img src="./img/star.svg" alt="star">
+                    <h5 class="text-base uppercase font-osw tracking-[0.64px]">Bathroom Details</h5>
+                  </div>
+                  <hr class="w-full">
+                </div>
+                <div class="detail ml-8 grid grid-cols-2 gap-x-12 gap-y-4">
+                  <p class="text-primary/75">Bathrooms Total: <span class="text-primary font-medium">Two</span></p>
+                  <p class="text-primary/75">Bathrooms Full: <span class="text-primary font-medium">5</span></p>
+                  <p class="text-primary/75">Bathrooms Half: <span class="text-primary font-medium">1</span></p>
+                </div>
+              </div>
+
+              <div class="kitchen-detail">
+                <div class="mt-8 mb-3 flex gap-5 flex-row items-center">
+                  <div class="inline-flex gap-2 w-3/12">
+                    <img src="./img/star.svg" alt="star">
+                    <h5 class="text-base uppercase font-osw tracking-[0.64px]">Kitchen Details</h5>
+                  </div>
+                  <hr class="w-full">
+                </div>
+                <div class="detail ml-8 grid grid-cols-2 gap-x-12 gap-y-4">
+                  <p class="text-primary/75">Bathrooms Total: <span class="text-primary font-medium">Dishwasher,
+                      Disposal,
+                      Microwave, and Stainless Steel Appliance(s)</span></p>
+                </div>
+              </div>
+
+              <div class="fireplace-detail">
+                <div class="mt-8 mb-3 flex gap-5 flex-row items-center">
+                  <div class="inline-flex gap-2 w-3/12">
+                    <img src="./img/star.svg" alt="star">
+                    <h5 class="text-base uppercase font-osw tracking-[0.64px]">Fireplace Details</h5>
+                  </div>
+                  <hr class="w-full">
+                </div>
+                <div class="detail ml-8 grid grid-cols-2 gap-x-12 gap-y-4">
+                  <p class="text-primary/75">Fireplace Total: <span class="text-primary font-medium">2</span></p>
+                </div>
+              </div>
+
+              <div class="interior-features">
+                <div class="mt-8 mb-3 flex gap-5 flex-row items-center">
+                  <div class="inline-flex gap-2 w-3/12">
+                    <img src="./img/star.svg" alt="star">
+                    <h5 class="text-base uppercase font-osw tracking-[0.64px]">Fireplace Details</h5>
+                  </div>
+                  <hr class="w-full">
+                </div>
+                <div class="detail ml-8 grid grid-cols-2 gap-x-12 gap-y-4">
+                  <p class="text-primary/75">Interior Features: <span class="text-primary font-medium">Bookcases, Entry
+                      Foyer, High Ceilings, Open Floorplan, Pantry, Storage, Walk-In Closet(s), and
+                      Primary Bedroom Main Floor</span></p>
+                  <p class="text-primary/75">Flooring: <span class="text-primary font-medium">Carpet, Finished Wood, and
+                      Tile</span></p>
+                </div>
+              </div>
+
+            </div>
+
+
+            <!---- Single Property Info Box --->
+
+
+          </div>
+
+          <div class="col w-4/12">
+            <!---- Image Gallery --->
+            <div class="gallery grid grid-cols-2 gap-6">
+              <img src="./img/elland-rd-interior.jpg" alt="interior" class="w-full rounded-2xl">
+              <img src="./img/elland-rd-interior.jpg" alt="interior" class="w-full rounded-2xl">
+              <img src="./img/elland-rd-interior.jpg" alt="interior" class="w-full rounded-2xl">
+              <a href="#" class="all-gallery bg-yellow relative p-4 rounded-2xl">
+                <div
+                  class="more-gallery-links border-[1px] border-light rounded-2xl w-full h-full flex flex-row items-center justify-center">
+                  <h4 class="text-xl-3xl flex flex-row items-center justify-center">+15 Photos <svg
+                      xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                      stroke="currentColor" class="size-6">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                    </svg>
+                  </h4>
+                </div>
+              </a>
+
+            </div>
+
+            <!---- Price Box --->
+            <div class="price-box border-[1px] border-primary/10 p-10 mt-11 rounded-2xl">
+              <h3 class="text-4xl-3xl font-osw">$2,249,900</h3>
+              <div class="price-detail mt-6 grid grid-cols-2 gap-3 *:text-lg *:text-primary/75">
+                <div class="price font-semibold">Price:</div>
+                <div class="area">$439/Sqft</div>
+                <div class="listing-date font-semibold">Listing Date:</div>
+                <div class="date">Oct 14, 2024</div>
+                <div class="listing font-semibold">Listing:</div>
+                <div class="licence">#RTC7809989</div>
+              </div>
+            </div>
+
+            <!---- Listing History --->
+            <div class="price-box border-[1px] border-primary/10 p-10 mt-5 rounded-2xl">
+              <h3 class="text-xl-3xl">Listing History</h3>
+              <div class="price-detail mt-5 grid grid-cols-3 gap-3 *:text-lg *:text-primary">
+                <div class="date">Nov 5, 2024</div>
+                <div class="market line-through">Off Market</div>
+                <div class="market-status">For Sale</div>
+                <div class="date">Nov 5, 2024</div>
+                <div class="market line-through">For Sale</div>
+                <div class="market-status">Off Market</div>
+                <div class="date">Nov 5, 2024</div>
+                <div class="market">Off Market</div>
+                <div class="market-status">$2,249,900</div>
+
+              </div>
+              <p class="text-sm text-primary/75 mt-9">Listing History is calculated by RealScout, and is not guaranteed
+                to be accurate, up-to-date or complete.</p>
+            </div>
+
+            <!---- Climate Risk Ratings --->
+            <div class="climate-risk-ratings border-[1px] border-primary/10 p-7 mt-5 rounded-2xl">
+              <h3 class="text-xl-3xl">Climate Risk Ratings</h3>
+              <p class="text-sm text-primary/75 mt-3.5">A 0-100 rating based on this home's future risk of
+                climate-related hazards compared to other homes in the United States.<a href="https://climatecheck.com/"
+                  class="block text-purple hover:text-yellow" target="_blank">Learn more at ClimateCheck.com</a></p>
+            </div>
+
+            <!---- Nearby Schools --->
+
+            <div class="nearby-schools border-[1px] border-primary/10 mt-5 rounded-2xl">
+              <h3 class="text-xl-3xl px-7 py-4 pb-7">Nearby Schools</h3>
+              <div class="schools inline-flex flex-row gap-3 px-7">
+                <div class="col bg-green rounded-full p-2 flex items-center justify-center h-[52px] w-[52px]">
+                  <p class="text-lg font-medium">9/<span class="text-xs">10</span></p>
+                </div>
+                <div class="col flex justify-center flex-col">
+                  <h5 class="title font-medium text-base">Nolenville High School</h5>
+                  <p class="description text-primary/75 text-sm">9 to 12, Williamson County School District</p>
+                </div>
+              </div>
+              <div class="schools inline-flex flex-row gap-3 px-7 my-5">
+                <div class="col bg-green rounded-full p-2 flex items-center justify-center h-[52px] w-[52px]">
+                  <p class="text-lg font-medium">9/<span class="text-xs">10</span></p>
+                </div>
+                <div class="col flex justify-center flex-col">
+                  <h5 class="title font-medium text-base">Nolenville High School</h5>
+                  <p class="description text-primary/75 text-sm">9 to 12, Williamson County School District</p>
+                </div>
+              </div>
+              <div class="schools inline-flex flex-row gap-3 px-7 mb-7">
+                <div class="col bg-green rounded-full p-2 flex items-center justify-center h-[52px] w-[52px]">
+                  <p class="text-lg font-medium">9/<span class="text-xs">10</span></p>
+                </div>
+                <div class="col flex justify-center flex-col">
+                  <h5 class="title font-medium text-base">Nolenville High School</h5>
+                  <p class="description text-primary/75 text-sm">9 to 12, Williamson County School District</p>
+                </div>
+              </div>
+
+              <p class="text-primary/75 text-sm py-4 px-7 border-t-[1px] border-primary/10"><span
+                  class="font-semibold">Disclaimer:</span> Lorem ipsum odor amet, consectetuer adipiscing elit.
+                Dignissim sollicitudin turpis neque diam arcu, massa dapibus</p>
+            </div>
+
+
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Component End  -->
+</body>
+
+</html>
