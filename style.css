@@ -727,7 +727,8 @@ video {
   opacity: 0.9;
 }
 
-.sidebar-menu li a:hover {
+.sidebar-menu li a:hover,
+.sidebar-menu li.active a {
   --tw-bg-opacity: 1;
   background-color: rgb(60 63 79 / var(--tw-bg-opacity, 1));
   --tw-text-opacity: 1;
@@ -735,15 +736,10 @@ video {
   opacity: 1;
 }
 
-.sidebar-menu li.active a {
-  --tw-bg-opacity: 1;
-  background-color: rgb(60 63 79 / var(--tw-bg-opacity, 1));
-  --tw-text-opacity: 1;
-  color: rgb(243 244 246 / var(--tw-text-opacity, 1));
-}
-
 .sidebar-menu li:hover a,
-.sidebar-menu li:hover img {
+.sidebar-menu li:hover img,
+.sidebar-menu li.active a,
+.sidebar-menu li.active img {
   opacity: 1;
 }
 
