@@ -52,30 +52,9 @@ module.exports = {
         // '3xl-md': '32px',
         // '3xl-2xl': '56px',
         // '2xl-2xl': '32px',
-        // '4xl-3xl': '34px', // 3xl: 'screen size',
-        // '2xl-3xl': '26px', // 3xl: 'screen size',
-        // 'xl-3xl': '22px', // 3xl: 'screen size',
-        '4xl-3xl': {
-          DEFAULT: '34px', // Default size
-          sm: '28px', // Small screen size
-          md: '28px', // Medium screen size
-          lg: '32px', // Large screen size
-          xl: '34px', // Extra large screen size
-        },
-        '2xl-3xl': {
-          DEFAULT: '26px', // Default size
-          sm: '30px', // Small screen size
-          md: '32px', // Medium screen size
-          lg: '34px', // Large screen size
-          xl: '36px', // Extra large screen size
-        },
-        'xl-3xl': {
-          DEFAULT: '22px', // Default size
-          sm: '30px', // Small screen size
-          md: '32px', // Medium screen size
-          lg: '34px', // Large screen size
-          xl: '36px', // Extra large screen size
-        },
+        '4xl-3xl': '34px', // 3xl: 'screen size',
+        '2xl-3xl': '26px', // 3xl: 'screen size',
+        'xl-3xl': '22px', // 3xl: 'screen size',
       },
 
       lineHeight: {

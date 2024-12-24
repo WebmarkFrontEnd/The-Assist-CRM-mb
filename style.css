@@ -2477,12 +2477,8 @@ h5 {
   line-height: 2rem;
 }
 
-.text-2xl-3xl font-size {
-  -d-e-f-a-u-l-t: 26px;
-  sm: 30px;
-  md: 32px;
-  lg: 34px;
-  xl: 36px;
+.text-2xl-3xl {
+  font-size: 26px;
 }
 
 .text-3xl {
@@ -2490,12 +2486,8 @@ h5 {
   line-height: 2.25rem;
 }
 
-.text-4xl-3xl font-size {
-  -d-e-f-a-u-l-t: 34px;
-  sm: 28px;
-  md: 28px;
-  lg: 32px;
-  xl: 34px;
+.text-4xl-3xl {
+  font-size: 34px;
 }
 
 .text-\[22px\] {
@@ -2530,12 +2522,8 @@ h5 {
   line-height: 1.75rem;
 }
 
-.text-xl-3xl font-size {
-  -d-e-f-a-u-l-t: 22px;
-  sm: 30px;
-  md: 32px;
-  lg: 34px;
-  xl: 36px;
+.text-xl-3xl {
+  font-size: 22px;
 }
 
 .text-xs {
@@ -3312,12 +3300,8 @@ h1,h2{
   line-height: 1.75rem;
 }
 
-.\*\:text-xl-3xl > * font-size {
-  -d-e-f-a-u-l-t: 22px;
-  sm: 30px;
-  md: 32px;
-  lg: 34px;
-  xl: 36px;
+.\*\:text-xl-3xl > * {
+  font-size: 22px;
 }
 
 .\*\:font-medium > * {
