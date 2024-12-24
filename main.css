@@ -4,7 +4,7 @@
 
 @layer components {
   .btn {
-    @apply px-[20px] py-[15px] text-base font-osw font-medium border-2 border-light inline-block bg-btn-primary text-light rounded-full shadow-md uppercase hover:shadow-xl hover:text-dark hover:bg-transparent hover:border-dark tracking-[0.96px];
+    @apply px-[20px] py-[15px] text-sm font-osw font-medium border-2 border-light inline-block bg-btn-primary text-light rounded-full shadow-md uppercase hover:shadow-xl hover:text-dark hover:bg-transparent hover:border-dark tracking-[0.96px] sm:text-base;
   }
 
   .btn-yellow {
