@@ -4,12 +4,13 @@ module.exports = {
   theme: {
     screens: {
       xs: { max: '480px' },
-      sm: { min: '481px' },
+      sm: { min: '580px' },
       md: { min: '768px' },
       lg: { min: '980px' },
       xl: { min: '1025px' },
       '2xl': { min: '1181px' },
-      '3xl': { min: '1440px' },
+      '3xl': { min: '1280px' },
+      '4xl': { min: '1440px' },
     },
 
     container: {

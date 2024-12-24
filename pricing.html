@@ -11,18 +11,18 @@
 
 <body class="text-gray-800 font-inter">
   <!-- Dashboard Page-->
-  <div class="flex flex-col xl:flex-row w-screen h-screen">
+  <div class="flex flex-col w-screen h-screen 2xl:flex-row ">
 
     <!-- Component Start -->
 
     <div
-      class="flex flex-row w-full xl:flex-col justify-between left-0 top-0 xl:w-60 h-full bg-[#262A3B] py-4 z-50 sidebar-menu transition-transform">
-      <a href="#" class="flex items-center justify-center mb-4 border-b-[1px] border-[#3C3F4F]">
+      class="flex flex-row w-full items-center px-5 md:px-8 justify-between left-0 top-0 h-full bg-[#262A3B] py-4 z-50 sidebar-menu transition-transform 2xl:flex-col 2xl:w-60 2xl:px-0">
+      <a href="#" class="flex items-center justify-center mb-0 border-[#3C3F4F] 2xl:mb-4 2xl:border-b-[1px]">
         <img src="./img/leads-logo.png" alt="">
         <!-- <span class="text-lg font-bold text-white ml-3">Logo</span> -->
       </a>
       <button data-collapse-toggle="navbar-default" type="button"
-        class="inline-flex items-center w-10 h-10 justify-center text-sm text-white xl:hidden"
+        class="inline-flex items-center w-10 h-10 justify-center text-sm text-white 2xl:hidden"
         aria-controls="navbar-default" aria-expanded="false">
         <span class="sr-only">Open main menu</span>
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
@@ -32,7 +32,7 @@
       </button>
 
 
-      <div class="hidden h-full w-full xl:block md:w-auto" id="navbar-default">
+      <div class="hidden h-full w-full 2xl:flex flex-col md:w-auto" id="navbar-default">
         <div class="px-4 h-full">
           <h4 class="text-sm text-light opacity-40 uppercase font-osw tracking-tight px-4">Main Menu</h4>
           <ul class="mt-4 *:mb-1">
@@ -143,8 +143,9 @@
 
 
     </div>
-    <div class="flex flex-col w-4/6 flex-grow">
-      <div class="flex items-center justify-between flex-shrink-0 p-4">
+    <div class="flex flex-col w-full 2xl:w-4/6 flex-grow">
+      <div
+        class="items-center justify-between p-4 flex flex-col gap-4 *:w-full *:justify-between md:flex-row *:md:w-auto bg-red-200">
         <button class="btn flex items-center gap-3 py-2.5 px-8">Search MLS or Contacts
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20" stroke-width="1.5"
             stroke="currentColor" class="size-5">
@@ -163,18 +164,18 @@
       </div>
       <div class=" p-8 overflow-auto bg-light-grey h-full pr-14">
         <div class="bg-[url('./img/star-graphic.svg')] bg-right bg-no-repeat h-full">
-          <div class="inline-flex flex-row items-center gap-11">
+          <div class="flex flex-col gap-5 items-center md:inline-flex md:flex-row md:gap-11">
             <h1 class="text-4xl-3xl -tracking-[0.68px]">Pricing</h1>
 
             <div
-              class="border-[1px] border-[#262A3B1A] rounded-lg p-2 w-[298px] gap-2  m-auto flex flex-row *:btn-without-shadow-yellow *:w-full *:bg-transparent">
+              class="w-1/2 border-[1px] border-[#262A3B1A] rounded-lg p-2 md:w-[298px] gap-2 m-auto flex flex-row *:btn-without-shadow-yellow *:w-full *:bg-transparent">
               <button type="submit">Monthly</button>
               <button type="submit">Yearly</button>
             </div>
 
           </div>
 
-          <div class="offer-box w-[800px] bg-light pt-3 p-10 rounded-xl mt-10">
+          <div class="offer-box w-full bg-light pt-3 p-10 rounded-xl mt-10 2xl:w-[800px]">
 
             <div class="offer-box-header flex flex-row justify-between items-center">
               <h4 class="text-2xl-3xl">Assist+</h4>
@@ -183,18 +184,20 @@
                 25%<span>off</span>
               </div>
             </div>
-            <div class="mb-8 flex gap-20 ">
-              <ul class=" *:flex *:flex-row *:gap-2 *:text-lg *:text-primary/75 *:mb-4">
+            <div class="mb-8 flex flex-wrap *:sm:mr-4 *:md:mr-8 ">
+              <ul class=" *:flex *:flex-row *:gap-2 *:text-base *:text-primary/75 *:mb-4 *:md:text-lg">
                 <li><img src="./img/check.svg" alt="check list" class="w-5">Praesent cras ligula penatibus</li>
                 <li><img src="./img/check.svg" alt="check list" class="w-5">Lorem ipsum odor</li>
                 <li><img src="./img/check.svg" alt="check list" class="w-5">Odio conubia ligula placerat </li>
                 <li><img src="./img/check.svg" alt="check list" class="w-5">Ultricies porta a vestibulum</li>
               </ul>
-              <ul class="*:flex *:flex-row *:gap-2 *:text-lg *:text-primary/75 *:mb-4">
+              <ul class=" *:flex *:flex-row *:gap-2 *:text-base *:text-primary/75 *:mb-4 *:md:text-lg">
                 <li><img src="./img/check.svg" alt="check list" class="w-5">Praesent cras ligula penatibus</li>
                 <li><img src="./img/check.svg" alt="check list" class="w-5">Lorem ipsum odor</li>
                 <li><img src="./img/check.svg" alt="check list" class="w-5">Odio conubia ligula placerat </li>
-                <li><img src="./img/check.svg" alt="check list" class="w-5">Ultricies porta a vestibulum</li>
+                <li class="last:mb-0"><img src="./img/check.svg" alt="check list" class="w-5">Ultricies porta a
+                  vestibulum
+                </li>
               </ul>
             </div>
 
@@ -203,7 +206,7 @@
                 $149 <span class="text-xl-3xl text-primary/75 line-through">$197</span>
               </div>
 
-              <button class="btn flex items-center justify-center gap-3 py-2.5 px-8 w-full">Get
+              <button class="btn flex w-2/5 items-center justify-center gap-3 py-2.5 px-8">Get
                 Started</button>
             </div>
           </div>
