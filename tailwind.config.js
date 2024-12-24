@@ -53,7 +53,9 @@ module.exports = {
         // '3xl-2xl': '56px',
         // '2xl-2xl': '32px',
         '4xl-3xl': '34px', // 3xl: 'screen size',
+        '4xl-xs': '28px', /// sm: 'screen size',
         '2xl-3xl': '26px', // 3xl: 'screen size',
+        '2xl-xs': '22px', /// sm: 'screen size',
         'xl-3xl': '22px', // 3xl: 'screen size',
       },
 
