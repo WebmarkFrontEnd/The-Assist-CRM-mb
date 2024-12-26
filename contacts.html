@@ -147,14 +147,14 @@
         class="items-center justify-between bg-white p-4 flex flex-col gap-4 *:w-full *:justify-between sm:flex-row *:sm:w-auto">
         <button class="btn flex items-center gap-3 py-3 px-6 md:py-2.5 md:px-8">Search MLS or Contacts
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20" stroke-width="1.5"
-            stroke="currentColor" class="size-5">
+            stroke="currentColor" class="size-4">
             <path stroke-linecap="round" stroke-linejoin="round"
               d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
           </svg>
         </button>
         <button class="btn btn-yellow flex items-center gap-3 py-3 px-6 md:py-2.5 md:px-8">Add Client/Alert
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-            stroke="currentColor" class="size-5">
+            stroke="currentColor" class="size-5 md:size-6">
             <path stroke-linecap="round" stroke-linejoin="round"
               d="M12 9v6m3-3H9m12 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
           </svg>
@@ -163,23 +163,24 @@
       </div>
       <div class="px-4 py-8 overflow-auto bg-light-grey h-full md:px-10">
         <h1 class="text-4xl-xs sm:text-4xl-3xl -tracking-[0.68px]">Contacts</h1>
-        <div class="mt-6 flex flex-col gap-8 items-center *:w-full md:flex-row *:md:w-auto *:justify-between">
-          <button class="btn flex items-center gap-3 py-3 px-6 md:py-2.5 md:px-8">
+        <div class="mt-6 flex flex-col gap-5 items-center md:flex-row *:justify-between md:gap-8">
+          <button class="btn flex items-center gap-3 py-3 px-6 w-full md:w-fit md:py-2.5 md:px-8">
             Add Contact
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-              stroke="currentColor" class="size-5">
+              stroke="currentColor" class="size-6">
               <path stroke-linecap="round" stroke-linejoin="round"
                 d="M12 9v6m3-3H9m12 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z">
               </path>
             </svg>
           </button>
 
-          <form class="bg-light flex items-center justify-between gap-3 w-1/4 h-[56px] py-2 pr-2.5 pl-5 rounded-full">
+          <form
+            class="bg-light flex items-center justify-between gap-3 w-full md:w-1/4 h-[56px] py-2 pr-2.5 pl-5 rounded-full">
             <input class="focus-visible:outline-none w-full h-full" type="text" placeholder="Search for a contact"
               name="search">
-            <button class="btn-yellow py-2 px-5 pb-2.5 rounded-full " type="submit"><svg
+            <button class="btn-yellow py-2 px-2.5 pb-2.5 rounded-full md:px-5" type="submit"><svg
                 xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20" stroke-width="1.5"
-                stroke="currentColor" class="size-6">
+                stroke="currentColor" class="size-4 md:size-5">
                 <path stroke-linecap="round" stroke-linejoin="round"
                   d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"></path>
               </svg></i></button>
@@ -187,121 +188,129 @@
 
         </div>
 
-        <table class="mt-8 rounded-lg overflow-x-auto w-full ">
-          <thead class="bg-primary h-14">
-            <tr
-              class="*:text-sm *:text-white *:font-osw *:uppercase *:tracking-[0.32px] *:font-medium *:text-left *:px-6 *:md:text-base">
-              <th>Name</th>
-              <th>Email Address</th>
-              <th>Headline</th>
-              <th>Send Message</th>
-              <th>Edit</th>
-              <th>Delete</th>
-            </tr>
-          </thead>
-          <tbody class="*:border-[#262a3b1a] *:border-2 *:h-16 *:text-sm *:md:text-base">
-            <tr class="*:px-6">
-              <td class="font-semibold font-popp">James Washington</td>
-              <td><a href="mailto:mcbridekelly@yahoo.com">mcbridekelly@yahoo.com</a></td>
-              <td>N/A</td>
-              <td><button class="btn-without-shadow flex items-center gap-3">
-                  Send Message
-                </button></td>
-              <td><a href="#"><img src="./img/edit.svg" alt=""></a></td>
-              <td><a href="#"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                    stroke="currentColor" class="size-6">
-                    <path stroke-linecap="round" stroke-linejoin="round"
-                      d="m14.74 9-.346 9m-4.788 0L9.26 9m9.968-3.21c.342.052.682.107 1.022.166m-1.022-.165L18.16 19.673a2.25 2.25 0 0 1-2.244 2.077H8.084a2.25 2.25 0 0 1-2.244-2.077L4.772 5.79m14.456 0a48.108 48.108 0 0 0-3.478-.397m-12 .562c.34-.059.68-.114 1.022-.165m0 0a48.11 48.11 0 0 1 3.478-.397m7.5 0v-.916c0-1.18-.91-2.164-2.09-2.201a51.964 51.964 0 0 0-3.32 0c-1.18.037-2.09 1.022-2.09 2.201v.916m7.5 0a48.667 48.667 0 0 0-7.5 0" />
-                  </svg></a></td>
-            </tr>
-            <tr class="*:px-6">
-              <td class="font-semibold font-popp">Jennifer Rivera</td>
-              <td><a href="mailto:gwalker@gmail.com">gwalker@gmail.com</a></td>
-              <td>N/A</td>
-              <td><button class="btn-without-shadow flex items-center gap-3">
-                  Send Message
-                </button></td>
-              <td><a href="#"><img src="./img/edit.svg" alt=""></a></td>
-              <td><a href="#"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                    stroke="currentColor" class="size-6">
-                    <path stroke-linecap="round" stroke-linejoin="round"
-                      d="m14.74 9-.346 9m-4.788 0L9.26 9m9.968-3.21c.342.052.682.107 1.022.166m-1.022-.165L18.16 19.673a2.25 2.25 0 0 1-2.244 2.077H8.084a2.25 2.25 0 0 1-2.244-2.077L4.772 5.79m14.456 0a48.108 48.108 0 0 0-3.478-.397m-12 .562c.34-.059.68-.114 1.022-.165m0 0a48.11 48.11 0 0 1 3.478-.397m7.5 0v-.916c0-1.18-.91-2.164-2.09-2.201a51.964 51.964 0 0 0-3.32 0c-1.18.037-2.09 1.022-2.09 2.201v.916m7.5 0a48.667 48.667 0 0 0-7.5 0" />
-                  </svg></a></td>
-            </tr>
-            <tr class="*:px-6">
-              <td class="font-semibold font-popp">Alan Ramirez</td>
-              <td><a href="mailto:jesus94@gmail.com">jesus94@gmail.com</a></td>
-              <td>N/A</td>
-              <td><button class="btn-without-shadow flex items-center gap-3">
-                  Send Message
-                </button></td>
-              <td><a href="#"><img src="./img/edit.svg" alt=""></a></td>
-              <td><a href="#"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                    stroke="currentColor" class="size-6">
-                    <path stroke-linecap="round" stroke-linejoin="round"
-                      d="m14.74 9-.346 9m-4.788 0L9.26 9m9.968-3.21c.342.052.682.107 1.022.166m-1.022-.165L18.16 19.673a2.25 2.25 0 0 1-2.244 2.077H8.084a2.25 2.25 0 0 1-2.244-2.077L4.772 5.79m14.456 0a48.108 48.108 0 0 0-3.478-.397m-12 .562c.34-.059.68-.114 1.022-.165m0 0a48.11 48.11 0 0 1 3.478-.397m7.5 0v-.916c0-1.18-.91-2.164-2.09-2.201a51.964 51.964 0 0 0-3.32 0c-1.18.037-2.09 1.022-2.09 2.201v.916m7.5 0a48.667 48.667 0 0 0-7.5 0" />
-                  </svg></a></td>
-            </tr>
-            <tr class="*:px-6">
-              <td class="font-semibold font-popp">Sarah Thomas</td>
-              <td><a href="mailto:georgewheeler@elliott-flores.com">georgewheeler@elliott-flores.com</a></td>
-              <td>N/A</td>
-              <td><button class="btn-without-shadow flex items-center gap-3">
-                  Send Message
-                </button></td>
-              <td><a href="#"><img src="./img/edit.svg" alt=""></a></td>
-              <td><a href="#"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                    stroke="currentColor" class="size-6">
-                    <path stroke-linecap="round" stroke-linejoin="round"
-                      d="m14.74 9-.346 9m-4.788 0L9.26 9m9.968-3.21c.342.052.682.107 1.022.166m-1.022-.165L18.16 19.673a2.25 2.25 0 0 1-2.244 2.077H8.084a2.25 2.25 0 0 1-2.244-2.077L4.772 5.79m14.456 0a48.108 48.108 0 0 0-3.478-.397m-12 .562c.34-.059.68-.114 1.022-.165m0 0a48.11 48.11 0 0 1 3.478-.397m7.5 0v-.916c0-1.18-.91-2.164-2.09-2.201a51.964 51.964 0 0 0-3.32 0c-1.18.037-2.09 1.022-2.09 2.201v.916m7.5 0a48.667 48.667 0 0 0-7.5 0" />
-                  </svg></a></td>
-            </tr>
-            <tr class="*:px-6">
-              <td class="font-semibold">Katherine Ferguson</td>
-              <td><a href="mailto:robertcook@hotmail.com">robertcook@hotmail.com</a></td>
-              <td>N/A</td>
-              <td><button class="btn-without-shadow flex items-center gap-3">
-                  Send Message
-                </button></td>
-              <td><a href="#"><img src="./img/edit.svg" alt=""></a></td>
-              <td><a href="#"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                    stroke="currentColor" class="size-6">
-                    <path stroke-linecap="round" stroke-linejoin="round"
-                      d="m14.74 9-.346 9m-4.788 0L9.26 9m9.968-3.21c.342.052.682.107 1.022.166m-1.022-.165L18.16 19.673a2.25 2.25 0 0 1-2.244 2.077H8.084a2.25 2.25 0 0 1-2.244-2.077L4.772 5.79m14.456 0a48.108 48.108 0 0 0-3.478-.397m-12 .562c.34-.059.68-.114 1.022-.165m0 0a48.11 48.11 0 0 1 3.478-.397m7.5 0v-.916c0-1.18-.91-2.164-2.09-2.201a51.964 51.964 0 0 0-3.32 0c-1.18.037-2.09 1.022-2.09 2.201v.916m7.5 0a48.667 48.667 0 0 0-7.5 0" />
-                  </svg></a></td>
-            </tr>
-            <tr class="*:px-6">
-              <td class="font-semibold">Crystal Franco</td>
-              <td><a href="mailto:lesliejohnson@hotmail.com">lesliejohnson@hotmail.com</a></td>
-              <td>N/A</td>
-              <td><button class="btn-without-shadow flex items-center gap-3">
-                  Send Message
-                </button></td>
-              <td><a href="#"><img src="./img/edit.svg" alt=""></a></td>
-              <td><a href="#"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                    stroke="currentColor" class="size-6">
-                    <path stroke-linecap="round" stroke-linejoin="round"
-                      d="m14.74 9-.346 9m-4.788 0L9.26 9m9.968-3.21c.342.052.682.107 1.022.166m-1.022-.165L18.16 19.673a2.25 2.25 0 0 1-2.244 2.077H8.084a2.25 2.25 0 0 1-2.244-2.077L4.772 5.79m14.456 0a48.108 48.108 0 0 0-3.478-.397m-12 .562c.34-.059.68-.114 1.022-.165m0 0a48.11 48.11 0 0 1 3.478-.397m7.5 0v-.916c0-1.18-.91-2.164-2.09-2.201a51.964 51.964 0 0 0-3.32 0c-1.18.037-2.09 1.022-2.09 2.201v.916m7.5 0a48.667 48.667 0 0 0-7.5 0" />
-                  </svg></a></td>
-            </tr>
-            <tr class="*:px-6">
-              <td class="font-semibold">Mike Garcia</td>
-              <td><a href="mailto:angela39@gmail.com">angela39@gmail.com</a></td>
-              <td>N/A</td>
-              <td><button class="btn-without-shadow flex items-center gap-3">
-                  Send Message
-                </button></td>
-              <td><a href="#"><img src="./img/edit.svg" alt=""></a></td>
-              <td><a href="#"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                    stroke="currentColor" class="size-6">
-                    <path stroke-linecap="round" stroke-linejoin="round"
-                      d="m14.74 9-.346 9m-4.788 0L9.26 9m9.968-3.21c.342.052.682.107 1.022.166m-1.022-.165L18.16 19.673a2.25 2.25 0 0 1-2.244 2.077H8.084a2.25 2.25 0 0 1-2.244-2.077L4.772 5.79m14.456 0a48.108 48.108 0 0 0-3.478-.397m-12 .562c.34-.059.68-.114 1.022-.165m0 0a48.11 48.11 0 0 1 3.478-.397m7.5 0v-.916c0-1.18-.91-2.164-2.09-2.201a51.964 51.964 0 0 0-3.32 0c-1.18.037-2.09 1.022-2.09 2.201v.916m7.5 0a48.667 48.667 0 0 0-7.5 0" />
-                  </svg></a></td>
-            </tr>
+        <div class="overflow-x-auto w-full">
+          <table class="mt-8 rounded-lg overflow-x-auto w-full ">
+            <thead class="bg-primary h-14">
+              <tr
+                class="*:text-sm *:text-white *:font-osw *:uppercase *:tracking-[0.32px] *:font-medium *:text-left *:px-6 *:md:text-base">
+                <th>Name</th>
+                <th>Email Address</th>
+                <th>Headline</th>
+                <th>Send Message</th>
+                <th>Edit</th>
+                <th>Delete</th>
+              </tr>
+            </thead>
+            <tbody class="*:border-[#262a3b1a] *:border-2 *:h-16 *:text-xs *:md:text-base">
+              <tr class="*:px-4 *:md:px-6">
+                <td class="font-semibold font-popp">James Washington</td>
+                <td><a href="mailto:mcbridekelly@yahoo.com">mcbridekelly@yahoo.com</a></td>
+                <td class="text-center">N/A</td>
+                <td><button
+                    class="btn-without-shadow flex items-center gap-3 text-[10px] px-2 py-1.5 md:px-5 md:py-3 md:text-sm">
+                    Send Message
+                  </button></td>
+                <td><a href="#"><img class="w-8 md:w-11" src="./img/edit.svg" alt=""></a></td>
+                <td><a href="#"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                      stroke-width="1.5" stroke="currentColor" class="size-4 md:size-6">
+                      <path stroke-linecap="round" stroke-linejoin="round"
+                        d="m14.74 9-.346 9m-4.788 0L9.26 9m9.968-3.21c.342.052.682.107 1.022.166m-1.022-.165L18.16 19.673a2.25 2.25 0 0 1-2.244 2.077H8.084a2.25 2.25 0 0 1-2.244-2.077L4.772 5.79m14.456 0a48.108 48.108 0 0 0-3.478-.397m-12 .562c.34-.059.68-.114 1.022-.165m0 0a48.11 48.11 0 0 1 3.478-.397m7.5 0v-.916c0-1.18-.91-2.164-2.09-2.201a51.964 51.964 0 0 0-3.32 0c-1.18.037-2.09 1.022-2.09 2.201v.916m7.5 0a48.667 48.667 0 0 0-7.5 0" />
+                    </svg></a></td>
+              </tr>
+              <tr class="*:px-4 *:md:px-6">
+                <td class="font-semibold font-popp">Jennifer Rivera</td>
+                <td><a href="mailto:gwalker@gmail.com">gwalker@gmail.com</a></td>
+                <td class="text-center">N/A</td>
+                <td><button
+                    class="btn-without-shadow flex items-center gap-3 text-[10px] px-2 py-1.5 md:px-5 md:py-3 md:text-sm">
+                    Send Message
+                  </button></td>
+                <td><a href="#"><img class="w-8 md:w-11" src="./img/edit.svg" alt=""></a></td>
+                <td><a href="#"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                      stroke-width="1.5" stroke="currentColor" class="size-4 md:size-6">
+                      <path stroke-linecap="round" stroke-linejoin="round"
+                        d="m14.74 9-.346 9m-4.788 0L9.26 9m9.968-3.21c.342.052.682.107 1.022.166m-1.022-.165L18.16 19.673a2.25 2.25 0 0 1-2.244 2.077H8.084a2.25 2.25 0 0 1-2.244-2.077L4.772 5.79m14.456 0a48.108 48.108 0 0 0-3.478-.397m-12 .562c.34-.059.68-.114 1.022-.165m0 0a48.11 48.11 0 0 1 3.478-.397m7.5 0v-.916c0-1.18-.91-2.164-2.09-2.201a51.964 51.964 0 0 0-3.32 0c-1.18.037-2.09 1.022-2.09 2.201v.916m7.5 0a48.667 48.667 0 0 0-7.5 0" />
+                    </svg></a></td>
+              </tr>
+              <tr class="*:px-4 *:md:px-6">
+                <td class="font-semibold font-popp">Alan Ramirez</td>
+                <td><a href="mailto:jesus94@gmail.com">jesus94@gmail.com</a></td>
+                <td class="text-center">N/A</td>
+                <td><button
+                    class="btn-without-shadow flex items-center gap-3 text-[10px] px-2 py-1.5 md:px-5 md:py-3 md:text-sm">
+                    Send Message
+                  </button></td>
+                <td><a href="#"><img class="w-8 md:w-11" src="./img/edit.svg" alt=""></a></td>
+                <td><a href="#"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                      stroke-width="1.5" stroke="currentColor" class="size-4 md:size-6">
+                      <path stroke-linecap="round" stroke-linejoin="round"
+                        d="m14.74 9-.346 9m-4.788 0L9.26 9m9.968-3.21c.342.052.682.107 1.022.166m-1.022-.165L18.16 19.673a2.25 2.25 0 0 1-2.244 2.077H8.084a2.25 2.25 0 0 1-2.244-2.077L4.772 5.79m14.456 0a48.108 48.108 0 0 0-3.478-.397m-12 .562c.34-.059.68-.114 1.022-.165m0 0a48.11 48.11 0 0 1 3.478-.397m7.5 0v-.916c0-1.18-.91-2.164-2.09-2.201a51.964 51.964 0 0 0-3.32 0c-1.18.037-2.09 1.022-2.09 2.201v.916m7.5 0a48.667 48.667 0 0 0-7.5 0" />
+                    </svg></a></td>
+              </tr>
+              <tr class="*:px-4 *:md:px-6">
+                <td class="font-semibold font-popp">Sarah Thomas</td>
+                <td><a href="mailto:georgewheeler@elliott-flores.com">georgewheeler@elliott-flores.com</a></td>
+                <td class="text-center">N/A</td>
+                <td><button
+                    class="btn-without-shadow flex items-center gap-3 text-[10px] px-2 py-1.5 md:px-5 md:py-3 md:text-sm">
+                    Send Message
+                  </button></td>
+                <td><a href="#"><img class="w-8 md:w-11" src="./img/edit.svg" alt=""></a></td>
+                <td><a href="#"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                      stroke-width="1.5" stroke="currentColor" class="size-4 md:size-6">
+                      <path stroke-linecap="round" stroke-linejoin="round"
+                        d="m14.74 9-.346 9m-4.788 0L9.26 9m9.968-3.21c.342.052.682.107 1.022.166m-1.022-.165L18.16 19.673a2.25 2.25 0 0 1-2.244 2.077H8.084a2.25 2.25 0 0 1-2.244-2.077L4.772 5.79m14.456 0a48.108 48.108 0 0 0-3.478-.397m-12 .562c.34-.059.68-.114 1.022-.165m0 0a48.11 48.11 0 0 1 3.478-.397m7.5 0v-.916c0-1.18-.91-2.164-2.09-2.201a51.964 51.964 0 0 0-3.32 0c-1.18.037-2.09 1.022-2.09 2.201v.916m7.5 0a48.667 48.667 0 0 0-7.5 0" />
+                    </svg></a></td>
+              </tr>
+              <tr class="*:px-4 *:md:px-6">
+                <td class="font-semibold">Katherine Ferguson</td>
+                <td><a href="mailto:robertcook@hotmail.com">robertcook@hotmail.com</a></td>
+                <td class="text-center">N/A</td>
+                <td><button
+                    class="btn-without-shadow flex items-center gap-3 text-[10px] px-2 py-1.5 md:px-5 md:py-3 md:text-sm">
+                    Send Message
+                  </button></td>
+                <td><a href="#"><img class="w-8 md:w-11" src="./img/edit.svg" alt=""></a></td>
+                <td><a href="#"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                      stroke-width="1.5" stroke="currentColor" class="size-4 md:size-6">
+                      <path stroke-linecap="round" stroke-linejoin="round"
+                        d="m14.74 9-.346 9m-4.788 0L9.26 9m9.968-3.21c.342.052.682.107 1.022.166m-1.022-.165L18.16 19.673a2.25 2.25 0 0 1-2.244 2.077H8.084a2.25 2.25 0 0 1-2.244-2.077L4.772 5.79m14.456 0a48.108 48.108 0 0 0-3.478-.397m-12 .562c.34-.059.68-.114 1.022-.165m0 0a48.11 48.11 0 0 1 3.478-.397m7.5 0v-.916c0-1.18-.91-2.164-2.09-2.201a51.964 51.964 0 0 0-3.32 0c-1.18.037-2.09 1.022-2.09 2.201v.916m7.5 0a48.667 48.667 0 0 0-7.5 0" />
+                    </svg></a></td>
+              </tr>
+              <tr class="*:px-4 *:md:px-6">
+                <td class="font-semibold">Crystal Franco</td>
+                <td><a href="mailto:lesliejohnson@hotmail.com">lesliejohnson@hotmail.com</a></td>
+                <td class="text-center">N/A</td>
+                <td><button
+                    class="btn-without-shadow flex items-center gap-3 text-[10px] px-2 py-1.5 md:px-5 md:py-3 md:text-sm">
+                    Send Message
+                  </button></td>
+                <td><a href="#"><img class="w-8 md:w-11" src="./img/edit.svg" alt=""></a></td>
+                <td><a href="#"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                      stroke-width="1.5" stroke="currentColor" class="size-4 md:size-6">
+                      <path stroke-linecap="round" stroke-linejoin="round"
+                        d="m14.74 9-.346 9m-4.788 0L9.26 9m9.968-3.21c.342.052.682.107 1.022.166m-1.022-.165L18.16 19.673a2.25 2.25 0 0 1-2.244 2.077H8.084a2.25 2.25 0 0 1-2.244-2.077L4.772 5.79m14.456 0a48.108 48.108 0 0 0-3.478-.397m-12 .562c.34-.059.68-.114 1.022-.165m0 0a48.11 48.11 0 0 1 3.478-.397m7.5 0v-.916c0-1.18-.91-2.164-2.09-2.201a51.964 51.964 0 0 0-3.32 0c-1.18.037-2.09 1.022-2.09 2.201v.916m7.5 0a48.667 48.667 0 0 0-7.5 0" />
+                    </svg></a></td>
+              </tr>
+              <tr class="*:px-4 *:md:px-6">
+                <td class="font-semibold">Mike Garcia</td>
+                <td><a href="mailto:angela39@gmail.com">angela39@gmail.com</a></td>
+                <td class="text-center">N/A</td>
+                <td><button
+                    class="btn-without-shadow flex items-center gap-3 text-[10px] px-2 py-1.5 md:px-5 md:py-3 md:text-sm">
+                    Send Message
+                  </button></td>
+                <td><a href="#"><img class="w-8 md:w-11" src="./img/edit.svg" alt=""></a></td>
+                <td><a href="#"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                      stroke-width="1.5" stroke="currentColor" class="size-4 md:size-6">
+                      <path stroke-linecap="round" stroke-linejoin="round"
+                        d="m14.74 9-.346 9m-4.788 0L9.26 9m9.968-3.21c.342.052.682.107 1.022.166m-1.022-.165L18.16 19.673a2.25 2.25 0 0 1-2.244 2.077H8.084a2.25 2.25 0 0 1-2.244-2.077L4.772 5.79m14.456 0a48.108 48.108 0 0 0-3.478-.397m-12 .562c.34-.059.68-.114 1.022-.165m0 0a48.11 48.11 0 0 1 3.478-.397m7.5 0v-.916c0-1.18-.91-2.164-2.09-2.201a51.964 51.964 0 0 0-3.32 0c-1.18.037-2.09 1.022-2.09 2.201v.916m7.5 0a48.667 48.667 0 0 0-7.5 0" />
+                    </svg></a></td>
+              </tr>
 
-          </tbody>
-        </table>
-
+            </tbody>
+          </table>
+        </div>
       </div>
       <div class="bg-primary p-4 xl:p-5 ">
         <p class="text-base text-white/70 leading-6 text-center xl:text-lg">Copyright 2024. All Rights Reserved.</p>
