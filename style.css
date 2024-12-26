@@ -1319,6 +1319,10 @@ h5 {
   width: 2.5rem;
 }
 
+.w-11 {
+  width: 2.75rem;
+}
+
 .w-16 {
   width: 4rem;
 }
@@ -1459,25 +1463,22 @@ h5 {
   width: auto;
 }
 
-.w-full {
-  width: 100%;
-}
-
-.w-screen {
-  width: 100vw;
-}
-
-.w-\[300px\] {
-  width: 300px;
-}
-
 .w-fit {
   width: -moz-fit-content;
   width: fit-content;
 }
 
-.w-11 {
-  width: 2.75rem;
+.w-full {
+  width: 100%;
+}
+
+.w-max {
+  width: -moz-max-content;
+  width: max-content;
+}
+
+.w-screen {
+  width: 100vw;
 }
 
 .max-w-2xl {
@@ -2559,6 +2560,10 @@ h5 {
   line-height: 1;
 }
 
+.text-\[10px\] {
+  font-size: 10px;
+}
+
 .text-\[22px\] {
   font-size: 22px;
 }
@@ -2598,10 +2603,6 @@ h5 {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
-}
-
-.text-\[10px\] {
-  font-size: 10px;
 }
 
 .font-bold {
@@ -3358,16 +3359,6 @@ h1,h2{
   padding-bottom: 1.5rem;
 }
 
-.\*\:px-2 > * {
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-}
-
-.\*\:px-0 > * {
-  padding-left: 0px;
-  padding-right: 0px;
-}
-
 .\*\:text-left > * {
   text-align: left;
 }
@@ -3380,11 +3371,6 @@ h1,h2{
   font-family: Poppins, sans-serif;
 }
 
-.\*\:text-8xl > * {
-  font-size: 6rem;
-  line-height: 1;
-}
-
 .\*\:text-base > * {
   font-size: 1rem;
   line-height: 1.5rem;
@@ -3395,13 +3381,13 @@ h1,h2{
   line-height: 1.75rem;
 }
 
-.\*\:text-xl-3xl > * {
-  font-size: 22px;
-}
-
 .\*\:text-sm > * {
   font-size: 0.875rem;
   line-height: 1.25rem;
+}
+
+.\*\:text-xl-3xl > * {
+  font-size: 22px;
 }
 
 .\*\:text-xs > * {
@@ -3608,6 +3594,10 @@ h1,h2{
 }
 
 @media (min-width: 768px) {
+  .md\:mt-6 {
+    margin-top: 1.5rem;
+  }
+
   .md\:inline-flex {
     display: inline-flex;
   }
@@ -3622,6 +3612,14 @@ h1,h2{
     height: 1.5rem;
   }
 
+  .md\:w-1\/4 {
+    width: 25%;
+  }
+
+  .md\:w-11 {
+    width: 2.75rem;
+  }
+
   .md\:w-\[298px\] {
     width: 298px;
   }
@@ -3633,22 +3631,6 @@ h1,h2{
   .md\:w-fit {
     width: -moz-fit-content;
     width: fit-content;
-  }
-
-  .md\:w-1\/4 {
-    width: 25%;
-  }
-
-  .md\:w-full {
-    width: 100%;
-  }
-
-  .md\:w-10 {
-    width: 2.5rem;
-  }
-
-  .md\:w-11 {
-    width: 2.75rem;
   }
 
   .md\:flex-row {
@@ -3668,6 +3650,11 @@ h1,h2{
     padding-right: 2.5rem;
   }
 
+  .md\:px-5 {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+
   .md\:px-8 {
     padding-left: 2rem;
     padding-right: 2rem;
@@ -3676,11 +3663,6 @@ h1,h2{
   .md\:py-2\.5 {
     padding-top: 0.625rem;
     padding-bottom: 0.625rem;
-  }
-
-  .md\:px-5 {
-    padding-left: 1.25rem;
-    padding-right: 1.25rem;
   }
 
   .md\:py-3 {
@@ -3701,27 +3683,19 @@ h1,h2{
     margin-right: 2rem;
   }
 
-  .\*\:md\:w-auto > * {
-    width: auto;
-  }
-
-  .\*\:md\:w-1\/4 > * {
-    width: 25%;
-  }
-
   .\*\:md\:px-6 > * {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
 
-  .\*\:md\:text-lg > * {
-    font-size: 1.125rem;
-    line-height: 1.75rem;
-  }
-
   .\*\:md\:text-base > * {
     font-size: 1rem;
     line-height: 1.5rem;
+  }
+
+  .\*\:md\:text-lg > * {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
   }
 }
 
