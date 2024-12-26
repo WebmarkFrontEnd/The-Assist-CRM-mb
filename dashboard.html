@@ -9,128 +9,142 @@
   <title>Dashboard</title>
 </head>
 
-<body class="font-popp">
+<body class="text-gray-800 font-popp">
   <!-- Dashboard-->
-  <div class="flex w-screen h-screen bg-[#F4F2F0]">
+  <div class="flex flex-col w-screen h-screen bg-[#F4F2F0] 2xl:flex-row">
     <!-- Sidebar Menu -->
-    <div class="flex flex-col left-0 top-0 w-60 h-full bg-[#262A3B] py-4 z-50 sidebar-menu transition-transform">
-      <a href="#" class="flex items-center justify-center mb-4 border-b-[1px] border-[#3C3F4F]">
-        <img src="./img/leads-logo.png" alt="leads logo">
+    <div
+      class="flex flex-row w-full items-center px-5 md:px-8 justify-between left-0 top-0 2xl:h-full bg-[#262A3B] z-50 sidebar-menu transition-transform 2xl:flex-col 2xl:w-60 2xl:px-0">
+      <a href="#" class="flex items-center justify-center mb-0 border-[#3C3F4F] 2xl:mb-4 2xl:border-b-[1px]">
+        <img src="./img/leads-logo.png" alt="">
         <!-- <span class="text-lg font-bold text-white ml-3">Logo</span> -->
       </a>
-      <div class="px-4 h-full">
-        <h4 class="text-sm text-light opacity-40 uppercase font-osw tracking-tight px-4">Main Menu</h4>
-        <ul class="mt-4 *:mb-1">
 
-          <li class="active">
-            <a href="#">
-              <img src="./img/dashboard.png" alt="dashboard">
-              <span>Dashboard</span>
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <img src="./img/leads+.png" alt="leads">
-              <span>Leads</span>
-            </a>
-          </li>
+      <div class="hidden h-full w-full 2xl:flex flex-col md:w-auto " id="navbar-default">
+        <div class="px-4 h-full">
+          <h4 class="text-sm text-light opacity-40 uppercase font-osw tracking-tight px-4">Main Menu</h4>
+          <ul class="mt-4 *:mb-1">
 
-          <li>
-            <a href="#">
-              <img src="./img/pipeline.png" alt="pipeline">
-              <span>Pipeline</span>
-            </a>
-          </li>
+            <li class="active">
+              <a href="#">
+                <img src="./img/dashboard.png" alt="dashboard">
+                <span>Dashboard</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="./img/leads+.png" alt="leads">
+                <span>Leads</span>
+              </a>
+            </li>
 
-          <li>
-            <a href="#">
-              <img src="./img/follow-up.png" alt="follow-up">
-              <span>Follow-up</span>
-            </a>
-          </li>
+            <li>
+              <a href="#">
+                <img src="./img/pipeline.png" alt="pipeline">
+                <span>Pipeline</span>
+              </a>
+            </li>
 
-          <li>
-            <a href="#">
-              <img src="./img/marketing-hub.png" alt="marketing-hub">
-              <span>Marketing Hub-up</span>
-            </a>
-          </li>
+            <li>
+              <a href="#">
+                <img src="./img/follow-up.png" alt="follow-up">
+                <span>Follow-up</span>
+              </a>
+            </li>
 
-          <li>
-            <a href="#">
-              <img src="./img/integrations.png" alt="integrations">
-              <span>Integrations</span>
-            </a>
-          </li>
+            <li>
+              <a href="#">
+                <img src="./img/marketing-hub.png" alt="marketing-hub">
+                <span>Marketing Hub-up</span>
+              </a>
+            </li>
 
-          <li>
-            <a href="#">
-              <img src="./img/extra-love.png" alt="extra-love">
-              <span>Extra-love</span>
-            </a>
-          </li>
-        </ul>
-        <ul class="mt-5 pt-5 *:mb-1 border-t-[1px] border-[#3C3F4F]">
-          <li>
-            <a href="#">
-              <img src="./img/ambassador.png" alt="ambassador">
-              <span>ambassador</span>
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <img src="./img/notifications.png" alt="notifications">
-              <span>Notifications</span>
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <img src="./img/pricing.png" alt="pricing">
-              <span>Pricing</span>
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <img src="./img/contacts.png" alt="contacts">
-              <span class="text-sm">contacts</span>
-            </a>
-          </li>
+            <li>
+              <a href="#">
+                <img src="./img/integrations.png" alt="integrations">
+                <span>Integrations</span>
+              </a>
+            </li>
 
-          <li>
-            <a href="#">
-              <img src="./img/csv-importer.png" alt="csv-importer">
-              <span>CSV Importer</span>
-            </a>
-          </li>
+            <li>
+              <a href="#">
+                <img src="./img/extra-love.png" alt="extra-love">
+                <span>Extra-love</span>
+              </a>
+            </li>
+          </ul>
+          <ul class="mt-5 pt-5 *:mb-1 border-t-[1px] border-[#3C3F4F]">
+            <li>
+              <a href="#">
+                <img src="./img/ambassador.png" alt="ambassador">
+                <span>ambassador</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="./img/notifications.png" alt="notifications">
+                <span>Notifications</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="./img/pricing.png" alt="pricing">
+                <span>Pricing</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="./img/contacts.png" alt="contacts">
+                <span class="text-sm">contacts</span>
+              </a>
+            </li>
 
-          <li>
-            <a href="#">
-              <img src="./img/assistant.png" alt="assistant">
-              <span>Assistant</span>
-            </a>
-          </li>
+            <li>
+              <a href="#">
+                <img src="./img/csv-importer.png" alt="csv-importer">
+                <span>CSV Importer</span>
+              </a>
+            </li>
 
-        </ul>
+            <li>
+              <a href="#">
+                <img src="./img/assistant.png" alt="assistant">
+                <span>Assistant</span>
+              </a>
+            </li>
+
+          </ul>
+        </div>
+
+        <div class="px-4">
+          <ul class="*:mb-1">
+            <li>
+              <a href="#">
+                <img src="./img/logout.png" alt="logout">
+                <span>Logout</span>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
 
-      <div class="px-4">
-        <ul class="mt-4 *:mb-1">
-          <li>
-            <a href="#">
-              <img src="./img/logout.png" alt="logout">
-              <span>Logout</span>
-            </a>
-          </li>
-        </ul>
-      </div>
+      <button data-collapse-toggle="navbar-default" type="button"
+        class="inline-flex items-center w-10 h-10 justify-center text-sm text-white 2xl:hidden"
+        aria-controls="navbar-default" aria-expanded="false">
+        <span class="sr-only">Open main menu</span>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+          class="size-6">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+        </svg>
+      </button>
+
     </div>
     <!-- Main Container -->
-    <div class="flex flex-col w-4/6 flex-grow">
-      <div class="flex items-center justify-between flex-shrink-0 p-4 bg-white">
-        <button class="btn flex items-center gap-3 py-2.5 px-8">Search
-          MLS or Contacts
-          <!-- <img src="./img/search-icon.svg" alt="leads logo"> -->
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+    <div class="flex flex-col w-full 2xl:w-4/6 flex-grow">
+      <div
+        class="items-center justify-between bg-white p-4 flex flex-col gap-4 *:w-full *:justify-between sm:flex-row *:sm:w-auto">
+        <button class="btn flex items-center gap-3 py-2.5 px-8">Search MLS or Contacts
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20" stroke-width="1.5"
             stroke="currentColor" class="size-5">
             <path stroke-linecap="round" stroke-linejoin="round"
               d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
@@ -138,27 +152,27 @@
         </button>
         <button class="btn btn-yellow flex items-center gap-3 py-2.5 px-8">Add Client/Alert
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-            stroke="currentColor" class="size-6">
+            stroke="currentColor" class="size-5">
             <path stroke-linecap="round" stroke-linejoin="round"
               d="M12 9v6m3-3H9m12 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
           </svg>
 
         </button>
       </div>
-      <div class="flex-grow p-8 overflow-auto rounded-2xl border border-grey">
-        <div class="flex bg-white rounded-xl overflow-hidden">
-          <div class="w-[57%]">
+      <div class="px-4 py-8 overflow-auto bg-light-grey h-full md:px-10">
+        <div class="flex flex-col rounded-xl overflow-hidden xl:flex-row *xl:w-[57%]">
+          <div class="w-full h-64 xl:h-auto">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3229.437719665241!2d-86.70500532419977!3d35.96072257249838!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x886470d597197c69%3A0x31ded115e0354105!2s9914%20Elland%20Rd%2C%20Brentwood%2C%20TN%2037027%2C%20USA!5e0!3m2!1sen!2sin!4v1733997731047!5m2!1sen!2sin"
               width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
               referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
-          <div class="w-[43%]">
+          <div class="w-ful">
             <div class="bg-light m-auto ">
 
               <form>
-                <div class="p-8 pb-5 max-h-[620px] overflow-y-auto">
-                  <h1 class="text-2xl-3xl mb-5">Search Properties</h1>
+                <div class="p-6 pb-5 max-h-full xl:p-8 xl:max-h-[620px]">
+                  <h1 class="text-2xl-xs mb-5 xl:text-2xl-3xl">Search Properties</h1>
                   <!-- MLS Number -->
                   <div class="form-group flex-1 pb-4">
                     <label class="font-osw uppercase text-primary tracking-[0.96px]">MLS Number</label>
@@ -376,7 +390,7 @@
 
                 </div>
 
-                <div class="px-8 py-4 shadow-sm">
+                <div class="px-8 py-4 shadow-sm relative z-10">
                   <!-- Search Properties Button -->
                   <div class="form-group flex-1">
                     <!-- <button type="submit" class="btn w-full ">Register</button> -->
@@ -398,6 +412,10 @@
 
           </div>
         </div>
+      </div>
+
+      <div class="bg-primary p-4 xl:p-5 ">
+        <p class="text-base text-white/70 leading-6 text-center xl:text-lg">Copyright 2024. All Rights Reserved.</p>
       </div>
     </div>
 

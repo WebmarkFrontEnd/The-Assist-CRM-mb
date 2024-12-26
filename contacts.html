@@ -9,146 +9,162 @@
   <title>Contacts</title>
 </head>
 
-<body class="text-gray-800 font-inter">
+<body class="text-gray-800 font-popp">
   <!-- Dashboard Page-->
-  <div class="flex w-screen h-screen">
+  <div class="flex flex-col w-screen h-screen bg-[#F4F2F0] 2xl:flex-row">
 
-    <!-- Component Start -->
-    <div class="flex flex-col left-0 top-0 w-60 h-full bg-[#262A3B] py-4 z-50 sidebar-menu transition-transform">
-      <a href="#" class="flex items-center justify-center mb-4 border-b-[1px] border-[#3C3F4F]">
+    <!-- Sidebar Menu -->
+    <div
+      class="flex flex-row w-full items-center px-5 md:px-8 justify-between left-0 top-0 2xl:h-full bg-[#262A3B] z-50 sidebar-menu transition-transform 2xl:flex-col 2xl:w-60 2xl:px-0">
+      <a href="#" class="flex items-center justify-center mb-0 border-[#3C3F4F] 2xl:mb-4 2xl:border-b-[1px]">
         <img src="./img/leads-logo.png" alt="">
         <!-- <span class="text-lg font-bold text-white ml-3">Logo</span> -->
       </a>
-      <div class="px-4 h-full">
-        <h4 class="text-sm text-light opacity-40 uppercase font-osw tracking-tight px-4">Main Menu</h4>
-        <ul class="mt-4 *:mb-1">
 
-          <li class="active">
-            <a href="#">
-              <img src="./img/dashboard.png" alt="dashboard">
-              <span>Dashboard</span>
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <img src="./img/leads+.png" alt="leads">
-              <span>Leads</span>
-            </a>
-          </li>
+      <div class="hidden h-full w-full 2xl:flex flex-col md:w-auto " id="navbar-default">
+        <div class="px-4 h-full">
+          <h4 class="text-sm text-light opacity-40 uppercase font-osw tracking-tight px-4">Main Menu</h4>
+          <ul class="mt-4 *:mb-1">
 
-          <li>
-            <a href="#">
-              <img src="./img/pipeline.png" alt="pipeline">
-              <span>Pipeline</span>
-            </a>
-          </li>
+            <li class="active">
+              <a href="#">
+                <img src="./img/dashboard.png" alt="dashboard">
+                <span>Dashboard</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="./img/leads+.png" alt="leads">
+                <span>Leads</span>
+              </a>
+            </li>
 
-          <li>
-            <a href="#">
-              <img src="./img/follow-up.png" alt="follow-up">
-              <span>Follow-up</span>
-            </a>
-          </li>
+            <li>
+              <a href="#">
+                <img src="./img/pipeline.png" alt="pipeline">
+                <span>Pipeline</span>
+              </a>
+            </li>
 
-          <li>
-            <a href="#">
-              <img src="./img/marketing-hub.png" alt="marketing-hub">
-              <span>Marketing Hub-up</span>
-            </a>
-          </li>
+            <li>
+              <a href="#">
+                <img src="./img/follow-up.png" alt="follow-up">
+                <span>Follow-up</span>
+              </a>
+            </li>
 
-          <li>
-            <a href="#">
-              <img src="./img/integrations.png" alt="integrations">
-              <span>Integrations</span>
-            </a>
-          </li>
+            <li>
+              <a href="#">
+                <img src="./img/marketing-hub.png" alt="marketing-hub">
+                <span>Marketing Hub-up</span>
+              </a>
+            </li>
 
-          <li>
-            <a href="#">
-              <img src="./img/extra-love.png" alt="extra-love">
-              <span>Extra-love</span>
-            </a>
-          </li>
-        </ul>
-        <ul class="mt-5 pt-5 *:mb-1 border-t-[1px] border-[#3C3F4F]">
-          <li>
-            <a href="#">
-              <img src="./img/ambassador.png" alt="ambassador">
-              <span>ambassador</span>
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <img src="./img/notifications.png" alt="notifications">
-              <span>Notifications</span>
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <img src="./img/pricing.png" alt="pricing">
-              <span>Pricing</span>
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <img src="./img/contacts.png" alt="contacts">
-              <span class="text-sm">contacts</span>
-            </a>
-          </li>
+            <li>
+              <a href="#">
+                <img src="./img/integrations.png" alt="integrations">
+                <span>Integrations</span>
+              </a>
+            </li>
 
-          <li>
-            <a href="#">
-              <img src="./img/csv-importer.png" alt="csv-importer">
-              <span>CSV Importer</span>
-            </a>
-          </li>
+            <li>
+              <a href="#">
+                <img src="./img/extra-love.png" alt="extra-love">
+                <span>Extra-love</span>
+              </a>
+            </li>
+          </ul>
+          <ul class="mt-5 pt-5 *:mb-1 border-t-[1px] border-[#3C3F4F]">
+            <li>
+              <a href="#">
+                <img src="./img/ambassador.png" alt="ambassador">
+                <span>ambassador</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="./img/notifications.png" alt="notifications">
+                <span>Notifications</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="./img/pricing.png" alt="pricing">
+                <span>Pricing</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="./img/contacts.png" alt="contacts">
+                <span class="text-sm">contacts</span>
+              </a>
+            </li>
 
-          <li>
-            <a href="#">
-              <img src="./img/assistant.png" alt="assistant">
-              <span>Assistant</span>
-            </a>
-          </li>
+            <li>
+              <a href="#">
+                <img src="./img/csv-importer.png" alt="csv-importer">
+                <span>CSV Importer</span>
+              </a>
+            </li>
 
-        </ul>
+            <li>
+              <a href="#">
+                <img src="./img/assistant.png" alt="assistant">
+                <span>Assistant</span>
+              </a>
+            </li>
+
+          </ul>
+        </div>
+
+        <div class="px-4">
+          <ul class="*:mb-1">
+            <li>
+              <a href="#">
+                <img src="./img/logout.png" alt="logout">
+                <span>Logout</span>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
 
-      <div class="px-4">
-        <ul class="mt-4 *:mb-1">
-          <li>
-            <a href="#">
-              <img src="./img/logout.png" alt="logout">
-              <span>Logout</span>
-            </a>
-          </li>
-        </ul>
-      </div>
+      <button data-collapse-toggle="navbar-default" type="button"
+        class="inline-flex items-center w-10 h-10 justify-center text-sm text-white 2xl:hidden"
+        aria-controls="navbar-default" aria-expanded="false">
+        <span class="sr-only">Open main menu</span>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+          class="size-6">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+        </svg>
+      </button>
+
     </div>
-    <!-- Component End -->
+    <!-- Sidebar Menu End -->
 
-    <div class="flex flex-col w-4/6 flex-grow">
-      <div class="flex items-center justify-between flex-shrink-0 p-4">
-        <button class="btn flex items-center gap-3 py-2.5 px-8">Search MLS or Contacts
+    <div class="flex flex-col w-full 2xl:w-4/6 flex-grow">
+      <div
+        class="items-center justify-between bg-white p-4 flex flex-col gap-4 *:w-full *:justify-between sm:flex-row *:sm:w-auto">
+        <button class="btn flex items-center gap-3 py-3 px-6 md:py-2.5 md:px-8">Search MLS or Contacts
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20" stroke-width="1.5"
             stroke="currentColor" class="size-5">
             <path stroke-linecap="round" stroke-linejoin="round"
               d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
           </svg>
         </button>
-        <button class="btn btn-yellow flex items-center gap-3 py-2.5 px-8">Add Client/Alert
+        <button class="btn btn-yellow flex items-center gap-3 py-3 px-6 md:py-2.5 md:px-8">Add Client/Alert
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-            stroke="currentColor" class="size-6">
+            stroke="currentColor" class="size-5">
             <path stroke-linecap="round" stroke-linejoin="round"
               d="M12 9v6m3-3H9m12 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
           </svg>
 
         </button>
       </div>
-      <div class="flex-grow p-10 overflow-auto  bg-light-grey border border-grey">
-        <h1 class="text-4xl-3xl -tracking-[0.68px]">Contacts</h1>
-        <div class="mt-6 flex flex-row gap-8 items-center">
-          <button class="btn flex items-center gap-3 py-2.5 px-8">
+      <div class="px-4 py-8 overflow-auto bg-light-grey h-full md:px-10">
+        <h1 class="text-4xl-xs sm:text-4xl-3xl -tracking-[0.68px]">Contacts</h1>
+        <div class="mt-6 flex flex-col gap-8 items-center *:w-full md:flex-row *:md:w-auto *:justify-between">
+          <button class="btn flex items-center gap-3 py-3 px-6 md:py-2.5 md:px-8">
             Add Contact
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
               stroke="currentColor" class="size-5">
@@ -171,10 +187,10 @@
 
         </div>
 
-        <table class="mt-8 rounded-lg overflow-hidden w-full">
+        <table class="mt-8 rounded-lg overflow-x-auto w-full ">
           <thead class="bg-primary h-14">
             <tr
-              class="*:text-light *:font-osw *:text-base *:uppercase *:tracking-[0.32px] *:font-medium *:text-left *:px-6">
+              class="*:text-sm *:text-white *:font-osw *:uppercase *:tracking-[0.32px] *:font-medium *:text-left *:px-6 *:md:text-base">
               <th>Name</th>
               <th>Email Address</th>
               <th>Headline</th>
@@ -183,7 +199,7 @@
               <th>Delete</th>
             </tr>
           </thead>
-          <tbody class="*:border-[#262a3b1a] *:border-2 *:h-16">
+          <tbody class="*:border-[#262a3b1a] *:border-2 *:h-16 *:text-sm *:md:text-base">
             <tr class="*:px-6">
               <td class="font-semibold font-popp">James Washington</td>
               <td><a href="mailto:mcbridekelly@yahoo.com">mcbridekelly@yahoo.com</a></td>
@@ -286,6 +302,9 @@
           </tbody>
         </table>
 
+      </div>
+      <div class="bg-primary p-4 xl:p-5 ">
+        <p class="text-base text-white/70 leading-6 text-center xl:text-lg">Copyright 2024. All Rights Reserved.</p>
       </div>
     </div>
     <!-- Component End  -->
