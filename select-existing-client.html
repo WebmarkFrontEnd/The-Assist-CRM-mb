@@ -18,11 +18,11 @@
 
   <section class="h-screen flex">
 
-    <div class="add-new-contact-form bg-light w-full max-w-[680px] m-auto py-10 rounded-2xl">
+    <div class="add-new-contact-form bg-light max-w-[680px] w-[90%] m-auto py-6 md:py-10 rounded-2xl">
 
-      <form class="relative px-10">
+      <form class="relative px-2 md:px-10">
 
-        <h1 class="text-center text-2xl-3xl">Add Client or Alert</h1>
+        <h1 class="text-center text-2xl-xs md:text-2xl-3xl">Add Client or Alert</h1>
         <button class="absolute top-0 right-0">
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
             stroke="currentColor" class="size-6 -mt-5 mr-5">
@@ -31,18 +31,19 @@
           </svg>
         </button>
 
-        <div class="border-[1px] border-[#262A3B1A] rounded-lg my-6 p-2 w-[396px] m-auto flex flex-row">
+        <div
+          class="border-[1px] border-[#262A3B1A] rounded-lg my-6 mx-4 p-2 m-auto flex flex-row sm:max-w-[396px] sm:mx-auto">
           <button type="submit" class="btn-without-shadow-yellow active w-full">Create Client</button>
           <button type="submit" class="btn-without-shadow-yellow active w-full">Select Existing Client</button>
         </div>
 
         <div
-          class="bg-light-grey flex items-center justify-between w-[420px] m-auto h-[56px] gap-3 py-2 pr-1.5 pl-6 rounded-full">
+          class="bg-light-grey flex items-center justify-between sm:max-w-[396px] sm:mx-auto h-[56px] gap-3 py-2 pr-1.5 pl-6 rounded-full">
           <input class="focus-visible:outline-none bg-transparent" type="text" placeholder="Search for a contact"
             name="search">
           <button class="btn-yellow py-2 px-5 pb-2.5 rounded-full " type="submit"><svg
               xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20" stroke-width="1.5"
-              stroke="currentColor" class="size-6">
+              stroke="currentColor" class="size-5 md:size-6">
               <path stroke-linecap="round" stroke-linejoin="round"
                 d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"></path>
             </svg></i></button>

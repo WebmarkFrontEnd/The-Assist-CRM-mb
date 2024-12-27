@@ -931,6 +931,11 @@ h5 {
   margin-bottom: 1.5rem;
 }
 
+.mx-4 {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
 .-ml-2 {
   margin-left: -0.5rem;
 }
@@ -2384,6 +2389,11 @@ h5 {
   padding-bottom: 52px;
 }
 
+.py-16 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
 .pb-0 {
   padding-bottom: 0px;
 }
@@ -3571,6 +3581,11 @@ h1,h2{
 }
 
 @media (min-width: 580px) {
+  .sm\:mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .sm\:w-\[342px\] {
     width: 342px;
   }
@@ -3581,6 +3596,14 @@ h1,h2{
 
   .sm\:w-\[350px\] {
     width: 350px;
+  }
+
+  .sm\:w-\[420px\] {
+    width: 420px;
+  }
+
+  .sm\:max-w-\[396px\] {
+    max-width: 396px;
   }
 
   .sm\:flex-row {
@@ -3649,6 +3672,14 @@ h1,h2{
     width: fit-content;
   }
 
+  .md\:w-\[420px\] {
+    width: 420px;
+  }
+
+  .md\:max-w-\[396px\] {
+    max-width: 396px;
+  }
+
   .md\:flex-row {
     flex-direction: row;
   }
@@ -3684,6 +3715,11 @@ h1,h2{
   .md\:py-3 {
     padding-top: 0.75rem;
     padding-bottom: 0.75rem;
+  }
+
+  .md\:py-10 {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
   }
 
   .md\:text-sm {
