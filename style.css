@@ -1481,6 +1481,10 @@ h5 {
   width: 100vw;
 }
 
+.w-\[90\%\] {
+  width: 90%;
+}
+
 .max-w-2xl {
   max-width: 42rem;
 }
@@ -3567,6 +3571,18 @@ h1,h2{
 }
 
 @media (min-width: 580px) {
+  .sm\:w-\[342px\] {
+    width: 342px;
+  }
+
+  .sm\:w-\[360px\] {
+    width: 360px;
+  }
+
+  .sm\:w-\[350px\] {
+    width: 350px;
+  }
+
   .sm\:flex-row {
     flex-direction: row;
   }
@@ -3673,6 +3689,10 @@ h1,h2{
   .md\:text-sm {
     font-size: 0.875rem;
     line-height: 1.25rem;
+  }
+
+  .md\:text-2xl-3xl {
+    font-size: 26px;
   }
 
   .\*\:md\:mb-4 > * {

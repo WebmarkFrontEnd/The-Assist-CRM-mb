@@ -18,18 +18,20 @@
 
   <section class="py-9">
 
-    <div class="add-new-contact-form bg-light max-w-[680px] m-auto pt-10 rounded-2xl">
-      
+    <div class="add-new-contact-form bg-light max-w-[680px] w-[90%] m-auto pt-10 rounded-2xl">
+
       <form class="relative">
 
-        <h1 class="text-center text-[26px] mb-5">Add New Contacts</h1>
+        <h1 class="text-center text-2xl-xs md:text-2xl-3xl mb-5">Add New Contacts</h1>
         <button class="absolute top-0 right-0">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 -mt-5 mr-5">
-            <path stroke-linecap="round" stroke-linejoin="round" d="m9.75 9.75 4.5 4.5m0-4.5-4.5 4.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+            stroke="currentColor" class="size-6 -mt-5 mr-5">
+            <path stroke-linecap="round" stroke-linejoin="round"
+              d="m9.75 9.75 4.5 4.5m0-4.5-4.5 4.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
           </svg>
         </button>
 
-        <div class="max-h-[620px] overflow-y-auto px-10">
+        <div class="max-h-[620px] overflow-y-auto px-6 md:px-10">
 
           <div class="form-group mb-3 flex justify-between gap-4 flex-col xl:flex-row">
 
@@ -141,48 +143,48 @@
           <div>
             <h5 class="bg-light-grey mb-4 px-3 py-2 rounded-lg">Additional Information</h5>
           </div>
-          
+
           <div class="form-group mb-3 flex justify-between gap-4 flex-col xl:flex-row">
-          
+
             <!-- Date Of Birth -->
             <div class="form-group flex-1">
               <label class="font-osw uppercase text-primary text-sm tracking-[0.84px]">Date Of Birth</label>
-                <input type="text" required="true" placeholder="mm/dd/yyyy"
-                    class="w-full border-[1px] border-[#262A3B1A] rounded-lg text-sm py-3 px-4 mt-1">
+              <input type="text" required="true" placeholder="mm/dd/yyyy"
+                class="w-full border-[1px] border-[#262A3B1A] rounded-lg text-sm py-3 px-4 mt-1">
             </div>
-          
+
             <!-- Timezone -->
             <div class="form-group flex-1">
               <label class="font-osw uppercase text-primary text-sm tracking-[0.84px]">Timezone</label>
-                <input type="text" required="true"
-                    class="w-full border-[1px] border-[#262A3B1A] rounded-lg text-sm py-3 px-4 mt-1">
+              <input type="text" required="true"
+                class="w-full border-[1px] border-[#262A3B1A] rounded-lg text-sm py-3 px-4 mt-1">
             </div>
-          
+
           </div>
 
           <div class="form-group mb-9 flex justify-between gap-4 flex-col xl:flex-row">
-          
+
             <!-- Tags -->
             <div class="form-group flex-1">
               <label class="font-osw uppercase text-primary text-sm tracking-[0.84px]">Tags</label>
-                <input type="text" required="true" placeholder="Comma-separated tags"
-                    class="w-full border-[1px] border-[#262A3B1A] rounded-lg text-sm py-3 px-4 mt-1">
+              <input type="text" required="true" placeholder="Comma-separated tags"
+                class="w-full border-[1px] border-[#262A3B1A] rounded-lg text-sm py-3 px-4 mt-1">
             </div>
-          
+
             <!-- Assigned To -->
             <div class="form-group flex-1">
               <label class="font-osw uppercase text-primary text-sm tracking-[0.84px]">Assigned To</label>
-                <input type="text" required="true"
-                    class="w-full border-[1px] border-[#262A3B1A] rounded-lg text-sm py-3 px-4 mt-1">
+              <input type="text" required="true"
+                class="w-full border-[1px] border-[#262A3B1A] rounded-lg text-sm py-3 px-4 mt-1">
             </div>
-          
+
           </div>
 
         </div>
 
         <div class="px-8 py-4 shadow-sm z-50 relative">
           <!-- Buttons -->
-          <div class="form-group flex flex-row gap-3 w-[342px] m-auto justify-center">
+          <div class="form-group flex flex-col gap-3 m-auto w-auto justify-center sm:flex-row sm:w-[342px]">
             <button type="submit" class="btn w-full py-3 px-8">Save Button</button>
             <button type="submit" class="btn btn-dark w-full py-3 px-8">Cancel</button>
           </div>
