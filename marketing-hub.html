@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 
 <head>
   <meta charset="UTF-8">
@@ -20,7 +20,7 @@
       class="flex flex-row w-full items-center px-5 md:px-8 justify-between left-0 top-0 2xl:h-full bg-[#262A3B] z-50 sidebar-menu transition-transform 2xl:flex-col 2xl:w-60 2xl:px-0">
       <a href="#" class="flex items-center justify-center mb-0 border-[#3C3F4F] 2xl:mb-4 2xl:border-b-[1px]">
         <img src="./img/leads-logo.png" alt="">
-        <!-- <span class="text-lg font-bold text-white ml-3">Logo</span> -->
+        <!-- <span class="text-base md:text-lg font-bold text-white ml-3">Logo</span> -->
       </a>
 
       <div class="hidden h-full w-full 2xl:flex flex-col md:w-auto " id="navbar-default">
@@ -169,18 +169,18 @@
       <!-- Main Content Start -->
       <div class="px-4 py-8 overflow-auto bg-light-grey h-full md:px-10">
         <div class="flex flex-grow gap-10 3xl:gap-20">
-          <div class="col w-4/5">
+          <div class="col w-full xl:w-4/5">
             <h1 class="text-4xl-xs md:text-4xl-3xl -tracking-[0.68px]">Resources</h1>
-            <div class="cards-wrapper">
-              <div class="mt-9 mb-6 flex gap-5 flex-row items-center">
-                <h3 class="text-2xl-3xl ">Courses</h3>
+            <div id="courses" class="cards-wrapper">
+              <div class="mt-6 mb-6 flex gap-5 flex-row items-center md:mt-9">
+                <h3 class="text-xl-3xl md:text-2xl-3xl">Courses</h3>
                 <hr class="w-full">
               </div>
 
 
 
               <div
-                class="courses-cards cards grid grid-cols-2 justify-start gap-5 *:bg-light *:p-6 *:rounded-xl *:flex *:flex-col *:gap-8 xl:grid-cols-3 4xl:grid-cols-4">
+                class="courses-cards cards grid grid-cols-2 justify-start gap-5 *:bg-light *:p-6 *:rounded-xl *:flex *:flex-col *:gap-6 *:xl:gap-8 md:grid-cols-3 xl:grid-cols-3 4xl:grid-cols-4">
 
                 <div class="card">
                   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -189,17 +189,17 @@
                       d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
                   </svg>
 
-                  <p class="text-lg">Get Started Course</p>
+                  <p class="text-base md:text-lg">Get Started Course</p>
                 </div>
 
                 <div class="card">
                   <img src="./img/play.svg" alt="play btn" class="w-6">
-                  <p class="text-lg">Get Started Course</p>
+                  <p class="text-base md:text-lg">Get Started Course</p>
                 </div>
 
                 <div class="card">
                   <img src="./img/pdf.svg" alt="pdf" class="w-6">
-                  <p class="text-lg">Get Started Course</p>
+                  <p class="text-base md:text-lg">Get Started Course</p>
                 </div>
 
                 <div class="card">
@@ -208,34 +208,34 @@
                     <path stroke-linecap="round" stroke-linejoin="round"
                       d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
                   </svg>
-                  <p class="text-lg">Get Started Course</p>
+                  <p class="text-base md:text-lg">Get Started Course</p>
                 </div>
 
 
               </div>
             </div>
 
-            <div class="cards-wrapper">
+            <div id="scripts" class="cards-wrapper">
               <div class="mt-12 mb-6 flex gap-5 flex-row items-center">
-                <h3 class="text-2xl-3xl ">Scripts</h3>
+                <h3 class="text-xl-3xl md:text-2xl-3xl">Scripts</h3>
                 <hr class="w-full">
               </div>
               <div
-                class="scripts-cards cards grid grid-cols-2 justify-start gap-5 *:bg-light *:p-6 *:rounded-xl *:flex *:flex-col *:gap-8 xl:grid-cols-3 4xl:grid-cols-4">
+                class="scripts-cards cards grid grid-cols-2 justify-start gap-5 *:bg-light *:p-6 *:rounded-xl *:flex *:flex-col *:gap-6 *:xl:gap-8md:grid-cols-3 xl:grid-cols-3 4xl:grid-cols-4">
 
                 <div class="card">
                   <img src="./img/pages.svg" alt="pages" class="w-6">
-                  <p class="text-lg">Get Started Course</p>
+                  <p class="text-base md:text-lg">Get Started Course</p>
                 </div>
 
                 <div class="card">
                   <img src="./img/play.svg" alt="play btn" class="w-6">
-                  <p class="text-lg">Get Started Course</p>
+                  <p class="text-base md:text-lg">Get Started Course</p>
                 </div>
 
                 <div class="card ">
                   <img src="./img/pdf.svg" alt="pdf" class="w-6">
-                  <p class="text-lg">Get Started Course</p>
+                  <p class="text-base md:text-lg">Get Started Course</p>
                 </div>
 
                 <div class="card">
@@ -244,29 +244,29 @@
                     <path stroke-linecap="round" stroke-linejoin="round"
                       d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
                   </svg>
-                  <p class="text-lg">Get Started Course</p>
+                  <p class="text-base md:text-lg">Get Started Course</p>
                 </div>
 
                 <div class="card">
                   <img src="./img/pdf.svg" alt="pdf" class="w-6">
-                  <p class="text-lg">Get Started Course</p>
+                  <p class="text-base md:text-lg">Get Started Course</p>
                 </div>
 
                 <div class="card">
                   <img src="./img/play.svg" alt="play btn" class="w-6">
-                  <p class="text-lg">Get Started Course</p>
+                  <p class="text-base md:text-lg">Get Started Course</p>
                 </div>
 
               </div>
             </div>
 
-            <div class="cards-wrapper">
+            <div id="templates" class="cards-wrapper">
               <div class="mt-12 mb-6 flex gap-5 flex-row items-center">
-                <h3 class="text-2xl-3xl ">Templates</h3>
+                <h3 class="text-xl-3xl md:text-2xl-3xl">Templates</h3>
                 <hr class="w-full">
               </div>
               <div
-                class="templates-cards cards cards grid grid-cols-2 justify-start gap-5 *:bg-light *:p-6 *:rounded-xl *:flex *:flex-col *:gap-8 xl:grid-cols-3 4xl:grid-cols-4">
+                class="templates-cards cards grid grid-cols-2 justify-start gap-5 *:bg-light *:p-6 *:rounded-xl *:flex *:flex-col *:gap-6 *:xl:gap-8 md:grid-cols-3 xl:grid-cols-3 4xl:grid-cols-4">
 
                 <div class="card">
                   <img src="./img/pages.svg" alt="pages" class="w-6">
@@ -275,12 +275,12 @@
 
                 <div class="card">
                   <img src="./img/play.svg" alt="play btn" class="w-6">
-                  <p class="text-lg">Get Started Course</p>
+                  <p class="text-base md:text-lg">Get Started Course</p>
                 </div>
 
                 <div class="card">
                   <img src="./img/pdf.svg" alt="pdf" class="w-6">
-                  <p class="text-lg">Get Started Course</p>
+                  <p class="text-base md:text-lg">Get Started Course</p>
                 </div>
 
                 <div class="card">
@@ -289,22 +289,22 @@
                     <path stroke-linecap="round" stroke-linejoin="round"
                       d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
                   </svg>
-                  <p class="text-lg">Get Started Course</p>
+                  <p class="text-base md:text-lg">Get Started Course</p>
                 </div>
 
                 <div class="card">
                   <img src="./img/pdf.svg" alt="pdf" class="w-6">
-                  <p class="text-lg">Get Started Course</p>
+                  <p class="text-base md:text-lg">Get Started Course</p>
                 </div>
 
                 <div class="card">
                   <img src="./img/play.svg" alt="play btn" class="w-6">
-                  <p class="text-lg">Get Started Course</p>
+                  <p class="text-base md:text-lg">Get Started Course</p>
                 </div>
 
                 <div class="card">
                   <img src="./img/pdf.svg" alt="pdf" class="w-6">
-                  <p class="text-lg">Get Started Course</p>
+                  <p class="text-base md:text-lg">Get Started Course</p>
                 </div>
 
                 <div class="card">
@@ -313,7 +313,7 @@
                     <path stroke-linecap="round" stroke-linejoin="round"
                       d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
                   </svg>
-                  <p class="text-lg">Get Started Course</p>
+                  <p class="text-base md:text-lg">Get Started Course</p>
                 </div>
 
               </div>
@@ -322,15 +322,21 @@
 
           </div>
 
-          <div class="col w-1/5 ">
+          <div class="hidden col w-1/5 xl:block">
             <ul
-              class="bg-primary rounded-xl sticky top-0 overflow-hidden *:text-light *:p-5 *:text-lg *:uppercase *:flex">
-              <li href="#" class="active font-semibold font-osw uppercase tracking-[0.54px] bg-purple gap-3"><img
-                  src="./img/star.svg" alt="star">Courses</li>
-              <li href="#" class="font-semibold font-osw uppercase tracking-[0.54px] gap-3"><img
-                  src="./img/star-dark.svg" alt="dark star">Scripts</li>
-              <li href="#" class="font-semibold font-osw uppercase tracking-[0.54px] gap-3"><img
-                  src="./img/star-dark.svg" alt="dark star">Templates</li>
+              class="bg-primary rounded-2xl *:border-b-[1px] *:border-[#3C3F4F]  sticky top-0 overflow-hidden *:text-light *:text-base md:text-lg *:uppercase *:flex">
+              <li
+                class="active font-semibold font-osw uppercase tracking-[0.54px] bg-purple gap-3 grayscale hover:grayscale-0 active:grayscale-0 hover:bg-btn-primary active:bg-btn-primary">
+                <a class="flex gap-2 w-full p-5" href="#course"><img src="./img/star.svg" alt="star">Courses</a>
+              </li>
+              <li
+                class="active font-semibold font-osw uppercase tracking-[0.54px] bg-purple gap-3 grayscale hover:grayscale-0 active:grayscale-0 hover:bg-btn-primary active:bg-btn-primary">
+                <a class="flex gap-2 w-full p-5" href="#scripts"><img src="./img/star.svg" alt="star">Scripts</a>
+              </li>
+              <li
+                class="active font-semibold font-osw uppercase tracking-[0.54px] bg-purple gap-3 last:border-b-0 grayscale hover:grayscale-0 active:grayscale-0 hover:bg-btn-primary active:bg-btn-primary">
+                <a class="flex gap-2 w-full p-5" href="#templates"><img src="./img/star.svg" alt="star">Templates</a>
+              </li>
             </ul>
           </div>
         </div>
