@@ -11,133 +11,153 @@
 
 <body class="text-gray-800 font-inter">
   <!-- Dashboard Page-->
-  <div class="flex w-screen h-screen">
+  <div class="flex flex-col w-screen h-screen bg-[#F4F2F0] 2xl:flex-row">
 
     <!-- Component Start -->
-    <div class="flex flex-col left-0 top-0 w-60 h-full bg-[#262A3B] py-4 z-50 sidebar-menu transition-transform">
-      <a href="#" class="flex items-center justify-center mb-4 border-b-[1px] border-[#3C3F4F]">
+    <!-- Sidebar Menu -->
+    <div
+      class="flex flex-row w-full items-center px-5 md:px-8 justify-between left-0 top-0 2xl:h-full bg-[#262A3B] z-50 sidebar-menu transition-transform 2xl:flex-col 2xl:w-60 2xl:px-0">
+      <a href="#" class="flex items-center justify-center mb-0 border-[#3C3F4F] 2xl:mb-4 2xl:border-b-[1px]">
         <img src="./img/leads-logo.png" alt="">
-        <!-- <span class="text-lg font-bold text-white ml-3">Logo</span> -->
+        <!-- <span class="text-base md:text-lg font-bold text-white ml-3">Logo</span> -->
       </a>
-      <div class="px-4 h-full">
-        <h4 class="text-sm text-light opacity-40 uppercase font-osw tracking-tight px-4">Main Menu</h4>
-        <ul class="mt-4 *:mb-1">
 
-          <li class="active">
-            <a href="#">
-              <img src="./img/dashboard.png" alt="dashboard">
-              <span>Dashboard</span>
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <img src="./img/leads+.png" alt="leads">
-              <span>Leads</span>
-            </a>
-          </li>
+      <div class="hidden h-full w-full 2xl:flex flex-col md:w-auto " id="navbar-default">
+        <div class="px-4 h-full">
+          <h4 class="text-sm text-light opacity-40 uppercase font-osw tracking-tight px-4">Main Menu</h4>
+          <ul class="mt-4 *:mb-1">
 
-          <li>
-            <a href="#">
-              <img src="./img/pipeline.png" alt="pipeline">
-              <span>Pipeline</span>
-            </a>
-          </li>
+            <li class="active">
+              <a href="#">
+                <img src="./img/dashboard.png" alt="dashboard">
+                <span>Dashboard</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="./img/leads+.png" alt="leads">
+                <span>Leads</span>
+              </a>
+            </li>
 
-          <li>
-            <a href="#">
-              <img src="./img/follow-up.png" alt="follow-up">
-              <span>Follow-up</span>
-            </a>
-          </li>
+            <li>
+              <a href="#">
+                <img src="./img/pipeline.png" alt="pipeline">
+                <span>Pipeline</span>
+              </a>
+            </li>
 
-          <li>
-            <a href="#">
-              <img src="./img/marketing-hub.png" alt="marketing-hub">
-              <span>Marketing Hub-up</span>
-            </a>
-          </li>
+            <li>
+              <a href="#">
+                <img src="./img/follow-up.png" alt="follow-up">
+                <span>Follow-up</span>
+              </a>
+            </li>
 
-          <li>
-            <a href="#">
-              <img src="./img/integrations.png" alt="integrations">
-              <span>Integrations</span>
-            </a>
-          </li>
+            <li>
+              <a href="#">
+                <img src="./img/marketing-hub.png" alt="marketing-hub">
+                <span>Marketing Hub-up</span>
+              </a>
+            </li>
 
-          <li>
-            <a href="#">
-              <img src="./img/extra-love.png" alt="extra-love">
-              <span>Extra-love</span>
-            </a>
-          </li>
-        </ul>
-        <ul class="mt-5 pt-5 *:mb-1 border-t-[1px] border-[#3C3F4F]">
-          <li>
-            <a href="#">
-              <img src="./img/ambassador.png" alt="ambassador">
-              <span>ambassador</span>
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <img src="./img/notifications.png" alt="notifications">
-              <span>Notifications</span>
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <img src="./img/pricing.png" alt="pricing">
-              <span>Pricing</span>
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <img src="./img/contacts.png" alt="contacts">
-              <span class="text-sm">contacts</span>
-            </a>
-          </li>
+            <li>
+              <a href="#">
+                <img src="./img/integrations.png" alt="integrations">
+                <span>Integrations</span>
+              </a>
+            </li>
 
-          <li>
-            <a href="#">
-              <img src="./img/csv-importer.png" alt="csv-importer">
-              <span>CSV Importer</span>
-            </a>
-          </li>
+            <li>
+              <a href="#">
+                <img src="./img/extra-love.png" alt="extra-love">
+                <span>Extra-love</span>
+              </a>
+            </li>
+          </ul>
+          <ul class="mt-5 pt-5 *:mb-1 border-t-[1px] border-[#3C3F4F]">
+            <li>
+              <a href="#">
+                <img src="./img/ambassador.png" alt="ambassador">
+                <span>ambassador</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="./img/notifications.png" alt="notifications">
+                <span>Notifications</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="./img/pricing.png" alt="pricing">
+                <span>Pricing</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="./img/contacts.png" alt="contacts">
+                <span class="text-sm">contacts</span>
+              </a>
+            </li>
 
-          <li>
-            <a href="#">
-              <img src="./img/assistant.png" alt="assistant">
-              <span>Assistant</span>
-            </a>
-          </li>
+            <li>
+              <a href="#">
+                <img src="./img/csv-importer.png" alt="csv-importer">
+                <span>CSV Importer</span>
+              </a>
+            </li>
 
-        </ul>
+            <li>
+              <a href="#">
+                <img src="./img/assistant.png" alt="assistant">
+                <span>Assistant</span>
+              </a>
+            </li>
+
+          </ul>
+        </div>
+
+        <div class="px-4">
+          <ul class="*:mb-1">
+            <li>
+              <a href="#">
+                <img src="./img/logout.png" alt="logout">
+                <span>Logout</span>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
 
-      <div class="px-4">
-        <ul class="mt-4 *:mb-1">
-          <li>
-            <a href="#">
-              <img src="./img/logout.png" alt="logout">
-              <span>Logout</span>
-            </a>
-          </li>
-        </ul>
-      </div>
+      <button data-collapse-toggle="navbar-default" type="button"
+        class="inline-flex items-center w-10 h-10 justify-center text-sm text-white 2xl:hidden"
+        aria-controls="navbar-default" aria-expanded="false">
+        <span class="sr-only">Open main menu</span>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+          class="size-6">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+        </svg>
+      </button>
+
     </div>
-    <!-- Component End -->
+    <!-- Sidebar Menu End -->
 
-    <div class="flex flex-col w-4/6 flex-grow">
-      <div class="flex items-center gap-[52px] flex-shrink-0 py-4 px-10">
+    <div class="flex flex-col w-full 2xl:w-4/6 flex-grow">
+      <!-- Topbar Buttons Start -->
+      <div class="flex items-center gap-[52px] bg-white flex-shrink-0 py-4 px-10">
 
         <p class="font-semibold text-lg">For them to bring current clients in at once</p>
 
         <button class="btn flex items-center gap-3 py-2.5 px-8">Upload CSV File
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5m-13.5-9L12 3m0 0 4.5 4.5M12 3v13.5" />
-              </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+            stroke="currentColor" class="size-5">
+            <path stroke-linecap="round" stroke-linejoin="round"
+              d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5m-13.5-9L12 3m0 0 4.5 4.5M12 3v13.5" />
+          </svg>
         </button>
       </div>
+      <!-- Topbar Buttons End -->
 
       <div class="flex-grow p-10 overflow-auto bg-light-grey border border-grey">
 
@@ -146,89 +166,117 @@
             <div class="grid grid-cols-2 gap-3">
 
               <div class="rounded-xl bg-light p-6">
-    
-                      <p class="font-osw text-base leading-snug text-primary/75 uppercase tracking-[0.32px]">Volume Closed YTD</p>
-                      <hr class="my-5 border-btn-secondary-bg w-[31px]">
-                      <h3 class="text-2xl-3xl font-medium mb-2">XX,XXX</h3>
-                      <div class="flex items-center">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="none">
-                          <path d="M0.839843 5.16005L1.50237 5.82258L5.5314 1.79358L5.5314 12L6.46838 12L6.46838 1.79358L10.4974 5.82258L11.1599 5.16005L5.99989 7.28121e-07L0.839843 5.16005Z" fill="#34BC68"/>
-                        </svg>
-                        <p class="ml-1 text-sm text-primary/75"><span class="text-[#34BC68]">5%</span> in the last week</p>
-                      </div>
+
+                <p class="font-osw text-base leading-snug text-primary/75 uppercase tracking-[0.32px]">Volume Closed YTD
+                </p>
+                <hr class="my-5 border-btn-secondary-bg w-[31px]">
+                <h3 class="text-2xl-3xl font-medium mb-2">XX,XXX</h3>
+                <div class="flex items-center">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="none">
+                    <path
+                      d="M0.839843 5.16005L1.50237 5.82258L5.5314 1.79358L5.5314 12L6.46838 12L6.46838 1.79358L10.4974 5.82258L11.1599 5.16005L5.99989 7.28121e-07L0.839843 5.16005Z"
+                      fill="#34BC68" />
+                  </svg>
+                  <p class="ml-1 text-sm text-primary/75"><span class="text-[#34BC68]">5%</span> in the last week</p>
+                </div>
 
               </div>
 
               <div class="rounded-xl bg-light p-6">
-    
-                      <p class="font-osw text-base leading-snug text-primary/75 uppercase tracking-[0.32px]">Volume Closed YTD</p>
-                      <hr class="my-5 border-btn-secondary-bg w-[31px]">
-                      <h3 class="text-2xl-3xl font-medium mb-2">XX,XXX</h3>
-                      <div class="flex items-center">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="none">
-                          <path d="M0.839843 5.16005L1.50237 5.82258L5.5314 1.79358L5.5314 12L6.46838 12L6.46838 1.79358L10.4974 5.82258L11.1599 5.16005L5.99989 7.28121e-07L0.839843 5.16005Z" fill="#34BC68"/>
-                        </svg>
-                        <p class="ml-1 text-sm text-primary/75"><span class="text-[#34BC68]">5%</span> in the last week</p>
-                      </div>
+
+                <p class="font-osw text-base leading-snug text-primary/75 uppercase tracking-[0.32px]">Volume Closed YTD
+                </p>
+                <hr class="my-5 border-btn-secondary-bg w-[31px]">
+                <h3 class="text-2xl-3xl font-medium mb-2">XX,XXX</h3>
+                <div class="flex items-center">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="none">
+                    <path
+                      d="M0.839843 5.16005L1.50237 5.82258L5.5314 1.79358L5.5314 12L6.46838 12L6.46838 1.79358L10.4974 5.82258L11.1599 5.16005L5.99989 7.28121e-07L0.839843 5.16005Z"
+                      fill="#34BC68" />
+                  </svg>
+                  <p class="ml-1 text-sm text-primary/75"><span class="text-[#34BC68]">5%</span> in the last week</p>
+                </div>
 
               </div>
 
               <div class="rounded-xl bg-light p-6">
-    
-                      <p class="font-osw text-base leading-snug text-primary/75 uppercase tracking-[0.32px]">Volume Closed YTD</p>
-                      <hr class="my-5 border-btn-secondary-bg w-[31px]">
-                      <h3 class="text-2xl-3xl font-medium mb-2">XX,XXX</h3>
-                      <div class="flex items-center">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="none">
-                          <path d="M0.839843 5.16005L1.50237 5.82258L5.5314 1.79358L5.5314 12L6.46838 12L6.46838 1.79358L10.4974 5.82258L11.1599 5.16005L5.99989 7.28121e-07L0.839843 5.16005Z" fill="#34BC68"/>
-                        </svg>
-                        <p class="ml-1 text-sm text-primary/75"><span class="text-[#34BC68]">5%</span> in the last week</p>
-                      </div>
+
+                <p class="font-osw text-base leading-snug text-primary/75 uppercase tracking-[0.32px]">Volume Closed YTD
+                </p>
+                <hr class="my-5 border-btn-secondary-bg w-[31px]">
+                <h3 class="text-2xl-3xl font-medium mb-2">XX,XXX</h3>
+                <div class="flex items-center">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="none">
+                    <path
+                      d="M0.839843 5.16005L1.50237 5.82258L5.5314 1.79358L5.5314 12L6.46838 12L6.46838 1.79358L10.4974 5.82258L11.1599 5.16005L5.99989 7.28121e-07L0.839843 5.16005Z"
+                      fill="#34BC68" />
+                  </svg>
+                  <p class="ml-1 text-sm text-primary/75"><span class="text-[#34BC68]">5%</span> in the last week</p>
+                </div>
 
               </div>
 
               <div class="rounded-xl bg-light p-6">
-    
-                      <p class="font-osw text-base leading-snug text-primary/75 uppercase tracking-[0.32px]">Volume Closed YTD</p>
-                      <hr class="my-5 border-btn-secondary-bg w-[31px]">
-                      <h3 class="text-2xl-3xl font-medium mb-2">XX,XXX</h3>
-                      <div class="flex items-center">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="none">
-                          <path d="M0.839843 5.16005L1.50237 5.82258L5.5314 1.79358L5.5314 12L6.46838 12L6.46838 1.79358L10.4974 5.82258L11.1599 5.16005L5.99989 7.28121e-07L0.839843 5.16005Z" fill="#34BC68"/>
-                        </svg>
-                        <p class="ml-1 text-sm text-primary/75"><span class="text-[#34BC68]">5%</span> in the last week</p>
-                      </div>
+
+                <p class="font-osw text-base leading-snug text-primary/75 uppercase tracking-[0.32px]">Volume Closed YTD
+                </p>
+                <hr class="my-5 border-btn-secondary-bg w-[31px]">
+                <h3 class="text-2xl-3xl font-medium mb-2">XX,XXX</h3>
+                <div class="flex items-center">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="none">
+                    <path
+                      d="M0.839843 5.16005L1.50237 5.82258L5.5314 1.79358L5.5314 12L6.46838 12L6.46838 1.79358L10.4974 5.82258L11.1599 5.16005L5.99989 7.28121e-07L0.839843 5.16005Z"
+                      fill="#34BC68" />
+                  </svg>
+                  <p class="ml-1 text-sm text-primary/75"><span class="text-[#34BC68]">5%</span> in the last week</p>
+                </div>
 
               </div>
-    
+
             </div>
           </div>
 
           <div class="w-full border-[1px] border-[#262A3B1A] rounded-2xl py-7 px-8">
 
-              <div class="flex items-center justify-between mb-3">
-                <p class="font-semibold text-lg">To-do list for day</p>
-                <button>
-                  <img src="./img/to-do-list.svg" alt="to-do-list-icon">
-                </button>
-              </div>
+            <div class="flex items-center justify-between mb-3">
+              <p class="font-semibold text-lg">To-do list for day</p>
+              <button>
+                <img src="./img/to-do-list.svg" alt="to-do-list-icon">
+              </button>
+            </div>
 
-              <form>
+            <form>
+              <div>
                 <input type="checkbox" id="lorem-ipsum" name="lorem-ipsum" class="my-4">
-                <label for="lorem-ipsum" class="font-popp text-primary/75 font-medium text-base ms-3 leading-[1.36em]">Lorem ipsum dolor sit amet, consectetur adipiscing elit</label><br>
-                
+                <label for="lorem-ipsum"
+                  class="font-popp text-primary/75 font-medium text-base ms-3 leading-[1.36em]">Lorem ipsum dolor sit
+                  amet, consectetur adipiscing elit</label><br>
+              </div>
+              <div>
                 <input type="checkbox" id="duis-aute" name="duis-aute" class="my-4">
-                <label for="duis-aute" class="font-popp text-primary/75 font-medium text-base ms-3 leading-[1.36em]">Duis aute irure dolor in reprehenderit</label><br>
-                
+                <label for="duis-aute"
+                  class="font-popp text-primary/75 font-medium text-base ms-3 leading-[1.36em]">Duis
+                  aute irure dolor in reprehenderit</label><br>
+              </div>
+              <div>
                 <input type="checkbox" id="leo-aliquet" name="leo-aliquet" class="my-4">
-                <label for="leo-aliquet" class="font-popp text-primary/75 font-medium text-base ms-3 leading-[1.36em]">Leo aliquet litora taciti nostra adipiscing</label><br>
-                
+                <label for="leo-aliquet"
+                  class="font-popp text-primary/75 font-medium text-base ms-3 leading-[1.36em]">Leo
+                  aliquet litora taciti nostra adipiscing</label><br>
+              </div>
+              <div>
                 <input type="checkbox" id="aliquet" name="aliquet" class="my-4">
-                <label for="aliquet" class="font-popp text-primary/75 font-medium text-base ms-3 leading-[1.36em]">Aliquet leo una litora taciti nostra adipiscing</label><br>
-                
+                <label for="aliquet"
+                  class="font-popp text-primary/75 font-medium text-base ms-3 leading-[1.36em]">Aliquet
+                  leo una litora taciti nostra adipiscing</label><br>
+              </div>
+              <div>
                 <input type="checkbox" id="urna-quam" name="urna-quam" class="my-4">
-                <label for="urna-quam" class="font-popp text-primary/75 font-medium text-base ms-3 leading-[1.36em]">Urna quam lacinia duis venenatis sodales</label>
-              </form>
+                <label for="urna-quam"
+                  class="font-popp text-primary/75 font-medium text-base ms-3 leading-[1.36em]">Urna
+                  quam lacinia duis venenatis sodales</label>
+              </div>
+            </form>
           </div>
         </div>
 
@@ -265,8 +313,8 @@
                       Send Message
                     </button></td>
                   <td><a href="#"><img src="./img/edit.svg" alt=""></a></td>
-                  <td><a href="#"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                        stroke="currentColor" class="size-6">
+                  <td><a href="#"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                        stroke-width="1.5" stroke="currentColor" class="size-6">
                         <path stroke-linecap="round" stroke-linejoin="round"
                           d="m14.74 9-.346 9m-4.788 0L9.26 9m9.968-3.21c.342.052.682.107 1.022.166m-1.022-.165L18.16 19.673a2.25 2.25 0 0 1-2.244 2.077H8.084a2.25 2.25 0 0 1-2.244-2.077L4.772 5.79m14.456 0a48.108 48.108 0 0 0-3.478-.397m-12 .562c.34-.059.68-.114 1.022-.165m0 0a48.11 48.11 0 0 1 3.478-.397m7.5 0v-.916c0-1.18-.91-2.164-2.09-2.201a51.964 51.964 0 0 0-3.32 0c-1.18.037-2.09 1.022-2.09 2.201v.916m7.5 0a48.667 48.667 0 0 0-7.5 0" />
                       </svg></a></td>
@@ -278,8 +326,8 @@
                       Send Message
                     </button></td>
                   <td><a href="#"><img src="./img/edit.svg" alt=""></a></td>
-                  <td><a href="#"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                        stroke="currentColor" class="size-6">
+                  <td><a href="#"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                        stroke-width="1.5" stroke="currentColor" class="size-6">
                         <path stroke-linecap="round" stroke-linejoin="round"
                           d="m14.74 9-.346 9m-4.788 0L9.26 9m9.968-3.21c.342.052.682.107 1.022.166m-1.022-.165L18.16 19.673a2.25 2.25 0 0 1-2.244 2.077H8.084a2.25 2.25 0 0 1-2.244-2.077L4.772 5.79m14.456 0a48.108 48.108 0 0 0-3.478-.397m-12 .562c.34-.059.68-.114 1.022-.165m0 0a48.11 48.11 0 0 1 3.478-.397m7.5 0v-.916c0-1.18-.91-2.164-2.09-2.201a51.964 51.964 0 0 0-3.32 0c-1.18.037-2.09 1.022-2.09 2.201v.916m7.5 0a48.667 48.667 0 0 0-7.5 0" />
                       </svg></a></td>
@@ -291,8 +339,8 @@
                       Send Message
                     </button></td>
                   <td><a href="#"><img src="./img/edit.svg" alt=""></a></td>
-                  <td><a href="#"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                        stroke="currentColor" class="size-6">
+                  <td><a href="#"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                        stroke-width="1.5" stroke="currentColor" class="size-6">
                         <path stroke-linecap="round" stroke-linejoin="round"
                           d="m14.74 9-.346 9m-4.788 0L9.26 9m9.968-3.21c.342.052.682.107 1.022.166m-1.022-.165L18.16 19.673a2.25 2.25 0 0 1-2.244 2.077H8.084a2.25 2.25 0 0 1-2.244-2.077L4.772 5.79m14.456 0a48.108 48.108 0 0 0-3.478-.397m-12 .562c.34-.059.68-.114 1.022-.165m0 0a48.11 48.11 0 0 1 3.478-.397m7.5 0v-.916c0-1.18-.91-2.164-2.09-2.201a51.964 51.964 0 0 0-3.32 0c-1.18.037-2.09 1.022-2.09 2.201v.916m7.5 0a48.667 48.667 0 0 0-7.5 0" />
                       </svg></a></td>
@@ -304,8 +352,8 @@
                       Send Message
                     </button></td>
                   <td><a href="#"><img src="./img/edit.svg" alt=""></a></td>
-                  <td><a href="#"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                        stroke="currentColor" class="size-6">
+                  <td><a href="#"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                        stroke-width="1.5" stroke="currentColor" class="size-6">
                         <path stroke-linecap="round" stroke-linejoin="round"
                           d="m14.74 9-.346 9m-4.788 0L9.26 9m9.968-3.21c.342.052.682.107 1.022.166m-1.022-.165L18.16 19.673a2.25 2.25 0 0 1-2.244 2.077H8.084a2.25 2.25 0 0 1-2.244-2.077L4.772 5.79m14.456 0a48.108 48.108 0 0 0-3.478-.397m-12 .562c.34-.059.68-.114 1.022-.165m0 0a48.11 48.11 0 0 1 3.478-.397m7.5 0v-.916c0-1.18-.91-2.164-2.09-2.201a51.964 51.964 0 0 0-3.32 0c-1.18.037-2.09 1.022-2.09 2.201v.916m7.5 0a48.667 48.667 0 0 0-7.5 0" />
                       </svg></a></td>
@@ -317,8 +365,8 @@
                       Send Message
                     </button></td>
                   <td><a href="#"><img src="./img/edit.svg" alt=""></a></td>
-                  <td><a href="#"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                        stroke="currentColor" class="size-6">
+                  <td><a href="#"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                        stroke-width="1.5" stroke="currentColor" class="size-6">
                         <path stroke-linecap="round" stroke-linejoin="round"
                           d="m14.74 9-.346 9m-4.788 0L9.26 9m9.968-3.21c.342.052.682.107 1.022.166m-1.022-.165L18.16 19.673a2.25 2.25 0 0 1-2.244 2.077H8.084a2.25 2.25 0 0 1-2.244-2.077L4.772 5.79m14.456 0a48.108 48.108 0 0 0-3.478-.397m-12 .562c.34-.059.68-.114 1.022-.165m0 0a48.11 48.11 0 0 1 3.478-.397m7.5 0v-.916c0-1.18-.91-2.164-2.09-2.201a51.964 51.964 0 0 0-3.32 0c-1.18.037-2.09 1.022-2.09 2.201v.916m7.5 0a48.667 48.667 0 0 0-7.5 0" />
                       </svg></a></td>
@@ -330,8 +378,8 @@
                       Send Message
                     </button></td>
                   <td><a href="#"><img src="./img/edit.svg" alt=""></a></td>
-                  <td><a href="#"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                        stroke="currentColor" class="size-6">
+                  <td><a href="#"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                        stroke-width="1.5" stroke="currentColor" class="size-6">
                         <path stroke-linecap="round" stroke-linejoin="round"
                           d="m14.74 9-.346 9m-4.788 0L9.26 9m9.968-3.21c.342.052.682.107 1.022.166m-1.022-.165L18.16 19.673a2.25 2.25 0 0 1-2.244 2.077H8.084a2.25 2.25 0 0 1-2.244-2.077L4.772 5.79m14.456 0a48.108 48.108 0 0 0-3.478-.397m-12 .562c.34-.059.68-.114 1.022-.165m0 0a48.11 48.11 0 0 1 3.478-.397m7.5 0v-.916c0-1.18-.91-2.164-2.09-2.201a51.964 51.964 0 0 0-3.32 0c-1.18.037-2.09 1.022-2.09 2.201v.916m7.5 0a48.667 48.667 0 0 0-7.5 0" />
                       </svg></a></td>
@@ -343,8 +391,8 @@
                       Send Message
                     </button></td>
                   <td><a href="#"><img src="./img/edit.svg" alt=""></a></td>
-                  <td><a href="#"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                        stroke="currentColor" class="size-6">
+                  <td><a href="#"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                        stroke-width="1.5" stroke="currentColor" class="size-6">
                         <path stroke-linecap="round" stroke-linejoin="round"
                           d="m14.74 9-.346 9m-4.788 0L9.26 9m9.968-3.21c.342.052.682.107 1.022.166m-1.022-.165L18.16 19.673a2.25 2.25 0 0 1-2.244 2.077H8.084a2.25 2.25 0 0 1-2.244-2.077L4.772 5.79m14.456 0a48.108 48.108 0 0 0-3.478-.397m-12 .562c.34-.059.68-.114 1.022-.165m0 0a48.11 48.11 0 0 1 3.478-.397m7.5 0v-.916c0-1.18-.91-2.164-2.09-2.201a51.964 51.964 0 0 0-3.32 0c-1.18.037-2.09 1.022-2.09 2.201v.916m7.5 0a48.667 48.667 0 0 0-7.5 0" />
                       </svg></a></td>
@@ -356,8 +404,8 @@
                       Send Message
                     </button></td>
                   <td><a href="#"><img src="./img/edit.svg" alt=""></a></td>
-                  <td><a href="#"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                        stroke="currentColor" class="size-6">
+                  <td><a href="#"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                        stroke-width="1.5" stroke="currentColor" class="size-6">
                         <path stroke-linecap="round" stroke-linejoin="round"
                           d="m14.74 9-.346 9m-4.788 0L9.26 9m9.968-3.21c.342.052.682.107 1.022.166m-1.022-.165L18.16 19.673a2.25 2.25 0 0 1-2.244 2.077H8.084a2.25 2.25 0 0 1-2.244-2.077L4.772 5.79m14.456 0a48.108 48.108 0 0 0-3.478-.397m-12 .562c.34-.059.68-.114 1.022-.165m0 0a48.11 48.11 0 0 1 3.478-.397m7.5 0v-.916c0-1.18-.91-2.164-2.09-2.201a51.964 51.964 0 0 0-3.32 0c-1.18.037-2.09 1.022-2.09 2.201v.916m7.5 0a48.667 48.667 0 0 0-7.5 0" />
                       </svg></a></td>
@@ -369,8 +417,8 @@
                       Send Message
                     </button></td>
                   <td><a href="#"><img src="./img/edit.svg" alt=""></a></td>
-                  <td><a href="#"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                        stroke="currentColor" class="size-6">
+                  <td><a href="#"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                        stroke-width="1.5" stroke="currentColor" class="size-6">
                         <path stroke-linecap="round" stroke-linejoin="round"
                           d="m14.74 9-.346 9m-4.788 0L9.26 9m9.968-3.21c.342.052.682.107 1.022.166m-1.022-.165L18.16 19.673a2.25 2.25 0 0 1-2.244 2.077H8.084a2.25 2.25 0 0 1-2.244-2.077L4.772 5.79m14.456 0a48.108 48.108 0 0 0-3.478-.397m-12 .562c.34-.059.68-.114 1.022-.165m0 0a48.11 48.11 0 0 1 3.478-.397m7.5 0v-.916c0-1.18-.91-2.164-2.09-2.201a51.964 51.964 0 0 0-3.32 0c-1.18.037-2.09 1.022-2.09 2.201v.916m7.5 0a48.667 48.667 0 0 0-7.5 0" />
                       </svg></a></td>
@@ -382,8 +430,8 @@
                       Send Message
                     </button></td>
                   <td><a href="#"><img src="./img/edit.svg" alt=""></a></td>
-                  <td><a href="#"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                        stroke="currentColor" class="size-6">
+                  <td><a href="#"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                        stroke-width="1.5" stroke="currentColor" class="size-6">
                         <path stroke-linecap="round" stroke-linejoin="round"
                           d="m14.74 9-.346 9m-4.788 0L9.26 9m9.968-3.21c.342.052.682.107 1.022.166m-1.022-.165L18.16 19.673a2.25 2.25 0 0 1-2.244 2.077H8.084a2.25 2.25 0 0 1-2.244-2.077L4.772 5.79m14.456 0a48.108 48.108 0 0 0-3.478-.397m-12 .562c.34-.059.68-.114 1.022-.165m0 0a48.11 48.11 0 0 1 3.478-.397m7.5 0v-.916c0-1.18-.91-2.164-2.09-2.201a51.964 51.964 0 0 0-3.32 0c-1.18.037-2.09 1.022-2.09 2.201v.916m7.5 0a48.667 48.667 0 0 0-7.5 0" />
                       </svg></a></td>
@@ -395,8 +443,8 @@
                       Send Message
                     </button></td>
                   <td><a href="#"><img src="./img/edit.svg" alt=""></a></td>
-                  <td><a href="#"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                        stroke="currentColor" class="size-6">
+                  <td><a href="#"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                        stroke-width="1.5" stroke="currentColor" class="size-6">
                         <path stroke-linecap="round" stroke-linejoin="round"
                           d="m14.74 9-.346 9m-4.788 0L9.26 9m9.968-3.21c.342.052.682.107 1.022.166m-1.022-.165L18.16 19.673a2.25 2.25 0 0 1-2.244 2.077H8.084a2.25 2.25 0 0 1-2.244-2.077L4.772 5.79m14.456 0a48.108 48.108 0 0 0-3.478-.397m-12 .562c.34-.059.68-.114 1.022-.165m0 0a48.11 48.11 0 0 1 3.478-.397m7.5 0v-.916c0-1.18-.91-2.164-2.09-2.201a51.964 51.964 0 0 0-3.32 0c-1.18.037-2.09 1.022-2.09 2.201v.916m7.5 0a48.667 48.667 0 0 0-7.5 0" />
                       </svg></a></td>
@@ -414,7 +462,8 @@
                 <div class="flex items-start gap-3 py-4">
                   <img src="./img/notifications-01.svg" alt="notifications-01">
                   <div class="flex flex-col gap-2">
-                    <h6 class="text-primary/75 font-medium">Leo aliquet litora taciti nostra adipiscing luctus viverra</h6>
+                    <h6 class="text-primary/75 font-medium">Leo aliquet litora taciti nostra adipiscing luctus viverra
+                    </h6>
                     <p class="text-primary/50 text-xs">10 minutes ago</p>
                   </div>
                 </div>
@@ -446,7 +495,7 @@
         </div>
 
       </div>
-      
+
     </div>
     <!-- Component End  -->
 
