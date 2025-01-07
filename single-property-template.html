@@ -194,21 +194,19 @@
             </a>
 
           </div>
+
+
         </div>
 
-        <div class="flex flex-col gap-10 single-property lg:flex-row">
+        <div class="flex flex-row flex-wrap single-property">
 
-          <div class="col w-full lg:w-8/12">
-
-            <!---- Single Property Info Box --->
-            <div class="info-box mt-8 mb-5">
-              <h1 class="text-4xl-xs font-normal 4xl:text-4xl-3xl product-title">9914 Elland Rd</h1>
-              <h4 class="product-address text-xl-3xl font-normal">Brentwood, TN 37027</h4>
-            </div>
-
+          <!---- Single Property Info Box --->
+          <div class=" info-box mt-8 mb-5 lg:w-8/12">
+            <h1 class="text-4xl-xs font-normal 4xl:text-4xl-3xl product-title">9914 Elland Rd</h1>
+            <h4 class="text-lg font-normal lg:text-xl-3xl product-address">Brentwood, TN 37027</h4>
             <!---- Single Property Info Box --->
             <div
-              class="amenities-info cards grid grid-cols-2 justify-start gap-5 *:bg-light *:p-4 *:rounded-xl *:flex *:flex-col *:gap-2 md:grid-cols-4 4xl:*:p-6">
+              class="mt-4 grid grid-cols-2 justify-start gap-5 *:bg-light *:p-4 *:rounded-xl *:flex *:flex-col *:gap-2 md:grid-cols-4 4xl:*:p-6 amenities-info cards">
 
               <div class="bedroom card">
                 <p class="title text-base text-primary/75 font-osw uppercase tracking-[0.32px]">Bedroom</p>
@@ -243,14 +241,23 @@
               </div>
             </div>
 
+          </div>
+
+          <div class="col w-full lg:w-8/12">
+
+
+
             <!---- Description Style --->
 
             <div class="description mt-10 mb-10">
               <h4 class="title text-xl-3xl pb-4">Description</h4>
-              <p class="mb-4 text-primary/75">Lorem ipsum odor amet, consectetuer adipiscing elit. Taciti elit elementum
-                nostra odio sapien congue porttitor. Posuere rhoncus vulputate; ad fringilla metus tempor nascetur. Dui
+              <p class="mb-4 text-primary/75">Lorem ipsum odor amet, consectetuer adipiscing elit. Taciti elit
+                elementum
+                nostra odio sapien congue porttitor. Posuere rhoncus vulputate; ad fringilla metus tempor nascetur.
+                Dui
                 fusce curae ipsum ipsum est dapibus a. Natoque
-                dapibus netus phasellus per purus tempor. Lacus tincidunt nisl sollicitudin ullamcorper montes interdum
+                dapibus netus phasellus per purus tempor. Lacus tincidunt nisl sollicitudin ullamcorper montes
+                interdum
                 vulputate.</p>
               <p class="text-primary/75">Neque tempor faucibus euismod pharetra habitasse massa himenaeos mauris.
                 Efficitur ipsum nascetur vehicula purus tempus nibh. Facilisi aliquam eleifend habitasse porta at in.
@@ -262,7 +269,7 @@
             </div>
 
             <!---- Building Information --->
-            <div class="building-information px-12 pt-5 pb-9 bg-light rounded-2xl">
+            <div class="building-information px-6 pt-5 pb-9 bg-light rounded-2xl xl:px-12">
               <h4 class="title text-xl-3xl">Building Information</h4>
 
               <div class="building-detail">
@@ -345,10 +352,12 @@
                   <hr class="w-full">
                 </div>
                 <div class="detail ml-8 grid grid-cols-2 gap-x-12 gap-y-4">
-                  <p class="text-primary/75">Interior Features: <span class="text-primary font-medium">Bookcases, Entry
+                  <p class="text-primary/75">Interior Features: <span class="text-primary font-medium">Bookcases,
+                      Entry
                       Foyer, High Ceilings, Open Floorplan, Pantry, Storage, Walk-In Closet(s), and
                       Primary Bedroom Main Floor</span></p>
-                  <p class="text-primary/75">Flooring: <span class="text-primary font-medium">Carpet, Finished Wood, and
+                  <p class="text-primary/75">Flooring: <span class="text-primary font-medium">Carpet, Finished Wood,
+                      and
                       Tile</span></p>
                 </div>
               </div>
@@ -441,10 +450,12 @@
                   <hr class="w-full">
                 </div>
                 <div class="detail ml-8 grid grid-cols-2 gap-x-12 gap-y-4">
-                  <p class="text-primary/75">Interior Features: <span class="text-primary font-medium">Bookcases, Entry
+                  <p class="text-primary/75">Interior Features: <span class="text-primary font-medium">Bookcases,
+                      Entry
                       Foyer, High Ceilings, Open Floorplan, Pantry, Storage, Walk-In Closet(s), and
                       Primary Bedroom Main Floor</span></p>
-                  <p class="text-primary/75">Flooring: <span class="text-primary font-medium">Carpet, Finished Wood, and
+                  <p class="text-primary/75">Flooring: <span class="text-primary font-medium">Carpet, Finished Wood,
+                      and
                       Tile</span></p>
                 </div>
               </div>
@@ -457,12 +468,13 @@
 
           </div>
 
+
           <div class="col w-full lg:w-4/12">
 
             <!---- Price Box --->
             <div class="price-box border-[1px] border-primary/10 p-10 mt-11 rounded-2xl">
               <h3 class="text-4xl-xs 4xl:text-4xl-3xl font-osw">$2,249,900</h3>
-              <div class="price-detail mt-6 grid grid-cols-2 gap-3 *:text-lg *:text-primary/75">
+              <div class=" mt-6 grid grid-cols-2 gap-3 *:text-base *:text-primary/75 price-detail lg:*:text-lg">
                 <div class="price font-semibold">Price:</div>
                 <div class="area">$439/Sqft</div>
                 <div class="listing-date font-semibold">Listing Date:</div>
@@ -487,7 +499,8 @@
                 <div class="market-status">$2,249,900</div>
 
               </div>
-              <p class="text-sm text-primary/75 mt-9">Listing History is calculated by RealScout, and is not guaranteed
+              <p class="text-sm text-primary/75 mt-9">Listing History is calculated by RealScout, and is not
+                guaranteed
                 to be accurate, up-to-date or complete.</p>
             </div>
 
@@ -539,6 +552,7 @@
 
 
           </div>
+
 
         </div>
 
