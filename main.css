@@ -322,4 +322,14 @@ h1,h2{
   }
 }
 
+.view-buttons-wrapper button:hover h5,
+.view-buttons-wrapper button:active h5 {
+  color: #fff;
+}
+
+.view-buttons-wrapper button:hover svg path,
+.view-buttons-wrapper button:active svg path {
+  fill: #fff;
+}
+
 /**/
