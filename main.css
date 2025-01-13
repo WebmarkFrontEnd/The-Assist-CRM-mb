@@ -24,7 +24,7 @@
   }
 
   .sidebar-menu li a {
-    @apply flex items-center tracking-tight py-2.5 px-4 text-sm text-gray-300 hover:bg-[#3C3F4F] active:bg-[#3C3F4F] hover:text-gray-100 active:text-gray-100 rounded-md opacity-90 hover:opacity-100;
+    @apply flex items-center tracking-tight py-2.5 px-4 text-sm text-gray-300 hover:bg-[#3C3F4F] active:bg-[#3C3F4F] hover:text-gray-100 active:text-gray-100 rounded-md opacity-30 hover:opacity-100;
   }
 
   .sidebar-menu li:hover a,
