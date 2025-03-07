@@ -2131,12 +2131,8 @@ h5 {
   --tw-bg-opacity: 0.9;
 }
 
-.bg-\[url\(\'\/img\/login-header\.jpg\'\)\] {
-  background-image: url('/img/login-header.jpg');
-}
-
-.bg-\[url\(\'\/img\/login-graphic\.svg\'\)\] {
-  background-image: url('/img/login-graphic.svg');
+.bg-\[url\(\/img\/login-graphic\.svg\)\] {
+  background-image: url(/img/login-graphic.svg);
 }
 
 .bg-cover {
