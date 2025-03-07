@@ -3197,6 +3197,13 @@ h1,h2{
   }
 }
 
+.login {
+  background: url('./img/login-graphic.svg');
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .view-buttons-wrapper button:hover h5,
 .view-buttons-wrapper button:active h5 {
   color: #fff;
